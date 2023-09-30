@@ -1,0 +1,293 @@
+commit 828631b0a831eedc9efe0caf658fd6c0098a4b86 (HEAD -> main)
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Sun Sep 24 11:41:35 2023 -0300
+
+    adicionando teste de fução
+
+commit 468adc08c14a0fe82ea88226a8d2a12021a33ccf
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Fri Aug 4 21:16:56 2023 -0300
+
+    colocando pastas novas
+
+    organizar o projeto depois
+
+commit e391f77a6a79dcd855000e60078d2dc82e0908b5
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Sun Jul 30 18:16:00 2023 -0300
+
+    Produtos
+
+    Pagina de produtos
+
+commit 969bfb3c97cb84ab315a9ef2ce48fbb910cec04b
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Tue Jul 18 16:37:39 2023 -0300
+
+    removendo pagina e arrumando estilos
+
+    arrumando responsividade da pagina de contatos e removendo a pagina de trocas e dovoluções
+:...skipping...
+commit 828631b0a831eedc9efe0caf658fd6c0098a4b86 (HEAD -> main)
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Sun Sep 24 11:41:35 2023 -0300
+
+    adicionando teste de fução
+
+commit 468adc08c14a0fe82ea88226a8d2a12021a33ccf
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Fri Aug 4 21:16:56 2023 -0300
+
+    colocando pastas novas
+
+    organizar o projeto depois
+
+commit e391f77a6a79dcd855000e60078d2dc82e0908b5
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Sun Jul 30 18:16:00 2023 -0300
+
+    Produtos
+
+    Pagina de produtos
+
+commit 969bfb3c97cb84ab315a9ef2ce48fbb910cec04b
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Tue Jul 18 16:37:39 2023 -0300
+
+    removendo pagina e arrumando estilos
+
+    arrumando responsividade da pagina de contatos e removendo a pagina de trocas e dovoluções
+
+commit d88ea2249b7e0e14bf4fd161db7598c7d976cd28
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Sat Jul 15 19:31:48 2023 -0300
+
+    alterando css: contatos
+
+commit 1ae6e1355d9cc11162e87ef6272be9add08c47cd
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Sat Jul 15 19:03:09 2023 -0300
+
+    criando component
+
+    criando componente do logo do instagram
+
+commit 458a8ea8f9c6f501f62509ac8619f85cf789ad2e
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Sat Jul 15 15:37:34 2023 -0300
+
+    alterando footer
+
+    tirando <hr> e colocando border top no css
+
+commit 1e6c3baa9a5e7aca487cf81d1c9c741c7e103f30
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Tue Jul 11 16:31:35 2023 -0300
+
+    alterando contatos
+
+commit cd7b95df7d830a3851fb34d67f7cb6e68d5acdbc
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Mon Jul 10 17:16:37 2023 -0300
+
+    Alterando contatos
+
+commit 6fc813d606c99b92b7a148e3236caa441ea1744e
+Merge: 0f873cb b20c0d3
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Wed Jun 28 17:40:32 2023 -0300
+
+    Merge branch 'main' of https://github.com/GustavoRizerio/Aleafar-Boutique
+
+commit 0f873cba4dcf6ec142b01d52bcc18edec13fe32b
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Wed Jun 21 19:06:34 2023 -0300
+
+    alterando para testes
+
+commit afd54be2b914f6278dbf9d00201e0022982ae00a
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Wed Jun 21 17:59:51 2023 -0300
+
+    adcionando testes
+
+commit 43b5d2f17f43f97bfbc9a0d2a26305fd49091b3f
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Sun May 21 12:08:33 2023 -0300
+
+    alterando links
+
+commit d9d97193d68858ae1cc40ff412f2d05c0c80eddb
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Thu May 11 17:59:33 2023 -0300
+
+    alterando icon das perguntas
+
+commit 85237a688c2606740f8a32c8567be58b02a0421c
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Wed May 10 18:28:22 2023 -0300
+
+    trocando linhas
+
+    alterando o degrade
+
+commit 75cc36342c91e2f203a7c16b4544b193c6ea7555
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Tue May 9 18:14:22 2023 -0300
+
+    adicionando formulario
+
+    adicionei o formulario de login e cadastro, alterei o estilo da pagina principal adicionando um degrade no background e alterei o nome que estava como "Login | Cadastro"
+
+commit 54e37f81b2bc5ecb89a59e1adcdae8ac0820af9c
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Tue May 2 18:36:44 2023 -0300
+
+    alterando pastas
+
+commit 9e08408babaae1f5f55cfe90894366b2fea23621
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Tue May 2 17:05:43 2023 -0300
+
+    Update style.css
+
+commit ee77f80ea419248c8ad26fcc9d5b2ebab1597640
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Mon May 1 10:10:17 2023 -0300
+
+    pro roni
+
+    fé
+
+commit bbaceff1ef568a0cadfe711d4bb03f59b143a523
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Mon May 1 10:02:14 2023 -0300
+
+    Adicionando elementos
+
+    adcionando carroussel em promoçoes, os feedbacks, siga-nos e o rodape.
+    O rodape precisa ser estilizado e arrumar o html.
+    adicionei o javascript do carrousel tbm
+
+commit f428aaac0f1a6bdea7ca6157004617576a3a52e9
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Sun Apr 30 17:22:02 2023 -0300
+
+    deleting files
+
+commit cc0a6f14770723909d0b2a5a8fddc17abe721017
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Sun Apr 30 16:55:18 2023 -0300
+
+    teste
+
+commit 8a60e03ed1b8fb616aaf89a4cfcc1bd190bc049f
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Sun Apr 30 13:51:38 2023 -0300
+
+    adicionando promoções
+
+    precisa criar um carrossel nas promoçoes
+
+commit e52a2aa9485ec66261a53819a7a5c276a2551a22
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Sun Apr 30 12:03:24 2023 -0300
+
+    alterando destaque
+
+    adicionei o carrousel e responsividade do projeto
+
+commit 1c7edb47281afb8c683538be020659b863f6d773
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Thu Apr 27 18:56:22 2023 -0300
+
+    adicionando destaques
+
+    coloquei o destque e deixei pro roni fazer o javascript
+
+commit 10c206d3519b85a82066f602cc62d9edf1857dac
+Merge: e54a885 bffaca4
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Wed Apr 26 17:33:44 2023 -0300
+
+    Merge branch 'main' of https://github.com/GustavoRizerio/Aleafar-Boutique
+
+commit e54a885b32eeff29f34cc9fc063918a51d4880c9
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Wed Apr 26 17:33:27 2023 -0300
+
+    adicioando moda
+
+    estilizando parte da moda
+
+commit e53fcf5a6be03501627bf91c9715976e3b94a868
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Wed Apr 26 16:18:17 2023 -0300
+
+    adicionando elementos html e css
+
+    criando a seção de informações e adicionando o conteudo e estilizando ela
+
+commit 23e31ca8efcfa329ea2255b234f02c5cf30154f8
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Tue Apr 25 17:39:46 2023 -0300
+
+    cabecalho quase pronto
+
+    roni altera oq vc achar melhor
+
+commit ad52ad15f9c17aa8c7e4c729adb3cdf58feab7fd
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Tue Apr 25 17:27:10 2023 -0300
+
+    nav bar
+
+commit 28b7aaac57a435f5d6ac91a5f75b6731008bfbb1
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Mon Apr 24 20:15:10 2023 -0300
+
+    list style, none
+
+commit 87afb088bc392c16dae0ec8fc6ba74cd7f4b947e
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Mon Apr 24 17:46:35 2023 -0300
+
+    css, display flex
+
+commit 9acc50cd4fb08ffa36ad67993285a87fc7de2dd3
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Mon Apr 24 17:43:40 2023 -0300
+
+    html e css
+
+commit b1c03f53b349e810960c89938e40f16c7aa2ea67
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Mon Apr 24 16:51:49 2023 -0300
+
+    organizando paxta
+
+commit b4328be768baaff82dbd8460118ca2f13438ad81
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Mon Apr 24 16:49:54 2023 -0300
+
+    Create produtos.html
+
+commit cffeb28dc38c5f0605337c73757ee2b9bd82e489
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Mon Apr 24 14:22:42 2023 -0300
+
+    alteração de conteudo
+
+    alterei o icone e o titulo da pagina
+
+commit 83eedbf2120257a255066837fa943dcd518b8c23
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Mon Apr 24 14:14:01 2023 -0300
+
+    Create index.html
+
+commit e12a28fcebdbb50c3e442ed46f31765109d158b7
+Author: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+Date:   Mon Apr 24 14:04:48 2023 -0300
+
+    Initial commit

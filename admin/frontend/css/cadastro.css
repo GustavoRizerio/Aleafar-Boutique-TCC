@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #efd2d7
+}
+
+img{
+    width: 50px;
+}
+.box{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+}
+fieldset{
+    border: 3px solid #ff5d78;
+}
+legend{
+    border: 1px solid #ff5d78;
+    padding: 10px;
+    text-align: center;
+    background-color: #ff5d78;;
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+    margin-top: 40px;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+.inputBotao{
+    background-image: linear-gradient(to right,#ff5d78, rgb(255, 14, 235));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.inputBotao:hover{
+    background-image: linear-gradient(to right,#ff8095, rgb(245, 63, 230));
+}

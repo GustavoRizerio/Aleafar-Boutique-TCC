@@ -1,0 +1,10 @@
+.promocao__container{
+    margin-top: 50px;
+
+    border-top: 1px solid var(--preto);
+    
+}
+
+.promocao__titulo{
+    text-align: center;
+}

@@ -1,0 +1,217 @@
+commit f9e2937204577aff9282ebce8933bd4bc14034a6
+Author: Roni <ronielli2020@gmail.com>
+Date:   Sat Aug 26 15:08:45 2023 -0300
+
+    responsividade de algumas paginas
+
+commit 9167c6cd6dab24b3534631f80b3914738959e16a
+Author: Roni <ronielli2020@gmail.com>
+Date:   Sat Aug 26 14:49:45 2023 -0300
+
+    terminando pagina produtos
+
+commit 0b548a228aa8536d03b8c0249f3a6a7279158476
+Author: Roni <ronielli2020@gmail.com>
+Date:   Sat Aug 26 10:57:29 2023 -0300
+
+    pág produtos criação dos cards e barra de pesquis
+
+commit c7f20fc8a973f833e5fc0fc4c6f27dd83cfa3bb4
+Author: Roni <ronielli2020@gmail.com>
+Date:   Thu Aug 24 20:03:30 2023 -0300
+
+    pag produtos começo
+
+commit 5dba6cc1352eada87b87ae4d69c5eb7896cf4c9d
+Author: Roni <ronielli2020@gmail.com>
+Date:   Mon Aug 21 17:07:00 2023 -0300
+
+    l
+
+commit fb97fa7eeba3614dfe9cc197814402e95514bcc0
+Author: Roni <ronielli2020@gmail.com>
+Date:   Mon Aug 21 16:31:22 2023 -0300
+
+    adicionando botao back to top em todas paginas.
+
+commit 21699588c07559b858e4d87913ffc736ddf7b794
+Author: Roni <ronielli2020@gmail.com>
+Date:   Mon Aug 21 16:09:56 2023 -0300
+
+    asas
+
+commit 7ee2152c2c621e2e35ce43cdc7cddf8ffd6572f5
+Author: Roni <ronielli2020@gmail.com>
+Date:   Mon Aug 21 15:50:48 2023 -0300
+
+    Update script.js
+
+commit 5787006ba9401010328a8b9054e1e44f56f7adce
+Author: Roni <ronielli2020@gmail.com>
+Date:   Sat Aug 19 20:36:48 2023 -0300
+
+    sim
+
+commit 34232d586487fb9eb8ef05ab0f474c45da3bf050
+Author: Roni <ronielli2020@gmail.com>
+Date:   Tue Aug 15 22:05:22 2023 -0300
+
+    gerar link whatsapp
+
+commit c42c2e2ee6898e7179c407d112644c3da76f2d4e
+Author: Roni <ronielli2020@gmail.com>
+Date:   Tue Aug 15 18:20:48 2023 -0300
+
+    botao back to top
+
+commit 071672d50e3919d8ebfe8a64962be723b00a11dc
+Author: Roni <ronielli2020@gmail.com>
+Date:   Tue Aug 8 23:36:39 2023 -0300
+
+    Update perguntas.html
+
+commit e8e226e91f35c844942c78be1777be9471cc079e
+Author: Roni <ronielli2020@gmail.com>
+Date:   Wed Aug 2 19:46:04 2023 -0300
+
+    criando a página de FAQ
+
+    slakk
+
+commit 8e4ce93109826efbbf9d1f1845dcd806b9d1f321
+Author: Roni <ronielli2020@gmail.com>
+Date:   Sat Jul 15 15:30:08 2023 -0300
+
+    Update index.html
+
+commit 03255071a27db161056f266953c2a040871ff5d1
+Author: Roni <ronielli2020@gmail.com>
+Date:   Sat Jul 15 15:24:52 2023 -0300
+
+    comocomprar
+
+commit 9a6b12b172d5a09dedab88fa20f37cc00e89390f
+Author: Roni <ronielli2020@gmail.com>
+Date:   Sat Jul 15 15:11:24 2023 -0300
+
+    Update comoComprar.css
+
+commit c83ab4221a48d9e0ad6c6ae0b090103cbeb0e8d5
+Author: Roni <ronielli2020@gmail.com>
+Date:   Sat Jul 15 15:09:08 2023 -0300
+
+    como comprar
+
+    adicionando a página como comprar
+
+commit b20c0d36ab2c8906be6ebd3f24e9fa0112523169
+Merge: 3d78e66 afd54be
+Author: Roni <ronielli2020@gmail.com>
+Date:   Tue Jun 27 18:45:46 2023 -0300
+
+    Merge branch 'main' of https://github.com/GustavoRizerio/Aleafar-Boutique
+
+commit 3d78e667b101e7ae41c21510183ec8ebba806114
+Author: Roni <ronielli2020@gmail.com>
+Date:   Tue Jun 27 18:45:43 2023 -0300
+
+    linkando páginas de login
+
+commit aa423c1210d6cedf95b6b491cb39b6a99be29a2b
+Author: Roni <ronielli2020@gmail.com>
+Date:   Sun May 7 13:10:07 2023 -0300
+
+    Update rodape.css
+
+commit 23a97e074097bac4fb80d51644c205e83f4634b7
+Author: Roni <ronielli2020@gmail.com>
+Date:   Mon May 1 13:06:54 2023 -0300
+
+    adicionando outro carroussel
+
+commit 6a8967e4aeaafab2c53aa1afb0fc07e4cc5f51ac
+Author: Roni <ronielli2020@gmail.com>
+Date:   Mon May 1 13:03:16 2023 -0300
+
+    Arrumando footer e responsividades
+
+commit a00d01141a76f70977753ca7429702308f483959
+Author: Roni <ronielli2020@gmail.com>
+Date:   Thu Apr 27 19:22:20 2023 -0300
+
+    ultimos detalhes do header das páginas
+
+commit dbc41f33380c66f30c236326f21bfdafdbd5103f
+Merge: f96f975 1c7edb4
+Author: Roni <ronielli2020@gmail.com>
+Date:   Thu Apr 27 19:12:13 2023 -0300
+
+    Merge branch 'main' of https://github.com/GustavoRizerio/Aleafar-Boutique
+
+commit f96f9759f15c919a07211e65991c9b7db01dc262
+Author: Roni <ronielli2020@gmail.com>
+Date:   Thu Apr 27 19:08:32 2023 -0300
+
+    colocando cabeçalhos
+
+    adicionando os headers em todas as paginas
+
+commit 021485dcb9b40ed489d0d4b982f614ffd9128a62
+Author: Roni <ronielli2020@gmail.com>
+Date:   Wed Apr 26 19:25:24 2023 -0300
+
+    Finalizando a responsividade do Menu
+
+    finalizando o sideMenu para celular
+
+    Co-Authored-By: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+
+commit bffaca4308705c421a2c2208f9f4ea5134e42bf7
+Author: Roni <ronielli2020@gmail.com>
+Date:   Wed Apr 26 17:29:49 2023 -0300
+
+    responsividade menu pt2
+
+commit cbbd12ea3cddc512032842a237c79e30875bb947
+Author: Roni <ronielli2020@gmail.com>
+Date:   Wed Apr 26 17:00:29 2023 -0300
+
+    Responsividade do Menu
+
+commit ea8a80617c23cb28f9ca6ad2bafd35c7bd0774c0
+Author: Roni <ronielli2020@gmail.com>
+Date:   Wed Apr 26 15:14:55 2023 -0300
+
+    criando variaveis das cores
+
+commit 5f268f4dd68b0819a0f57dc21023e9dbef974a04
+Author: Roni <ronielli2020@gmail.com>
+Date:   Wed Apr 26 13:48:53 2023 -0300
+
+    Arrumando html e estilos
+
+    Arrumando os itens do menu e adicionando animação
+
+commit a44609039a015465369b616a0ece9ee096d3179d
+Author: Roni <ronielli2020@gmail.com>
+Date:   Tue Apr 25 18:58:55 2023 -0300
+
+    Linkando pages
+
+    colocando o caminho das páginas nos itens do header
+
+commit 1c8459f59964b13f7f97ffb2e458fb68b3bd9d8c
+Author: Roni <ronielli2020@gmail.com>
+Date:   Mon Apr 24 16:09:50 2023 -0300
+
+    Teste
+
+    Testando commits.
+
+    Co-Authored-By: Gustavo Rizerio <GustavoGrizerioG@gmail.com>
+
+commit eb40e4b0966de37f32b8cd4378cbcb36a68a8130
+Author: Roni <ronielli2020@gmail.com>
+Date:   Mon Apr 24 16:07:29 2023 -0300
+
+    Teste

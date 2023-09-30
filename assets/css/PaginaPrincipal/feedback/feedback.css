@@ -1,0 +1,37 @@
+.feedback__container{
+    margin-top: 3.75rem;
+    border-top: 1px solid var(--preto);
+    text-align: center;
+}
+
+.feedback__titulo{
+    margin-top: 3.125rem;
+    font-size: 1.875rem;
+}
+
+.images__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback__container-figure{
+    margin-top: 3.75rem;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.473);
+	border-radius: 0.5rem;
+}
+.feedback__figure-img{
+    width: 18.75rem;   
+}
+
+
+@media(max-width: 425px){
+    .feedback__titulo-instagram{
+        font-size: 25px;
+    }
+
+    .feedback__instagram-icon{
+        width: 50px;
+    }
+}

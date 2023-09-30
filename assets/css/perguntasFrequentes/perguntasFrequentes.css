@@ -1,0 +1,55 @@
+.titulo{
+    text-align: center;
+}
+
+.perguntas__faq{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 70px 30px 70px;
+}
+
+.perguntas__texto{
+    font-size: 17px;
+    color: #333;
+    margin: 8px;
+}
+
+.respostas__faq{
+    font-size: 15px;
+    color: #666;
+}
+
+.respostas__faq a{
+    text-decoration: none;
+    color: var(--rosa-salmao);
+}
+
+.respostas__faq a:hover{
+    transition: ease-in-out .2s;
+    text-decoration: underline;
+    color: var(--rosa-escuro);
+}
+
+.duvida__contato{
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+.duvida__contato a{
+    text-decoration: none;
+    color: var(--rosa-salmao);
+}
+
+.duvida__contato a:hover{
+    transition: ease-in-out .2s;
+    text-decoration: underline;
+    color: var(--rosa-escuro);
+}
+
+@media(max-width: 600px){
+    .perguntas__faq{
+        margin: 10px;
+    }
+}
+

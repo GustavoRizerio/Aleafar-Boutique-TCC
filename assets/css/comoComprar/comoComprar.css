@@ -1,0 +1,39 @@
+.titulo{
+    text-align: center;
+}
+
+.lista__informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 70px 30px 70px;
+}
+
+.informacoes__item-texto{
+    font-size: 15px;
+    color: #333;
+    margin: 8px;
+}
+
+.duvida__contato{
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+.duvida__contato a{
+    text-decoration: none;
+    color: var(--rosa-salmao);
+}
+
+.duvida__contato a:hover{
+    transition: ease-in-out .2s;
+    text-decoration: underline;
+    color: var(--rosa-escuro);
+}
+
+@media(max-width: 600px){
+    .lista__informacoes{
+        margin: 10px;
+    }
+}
+
