@@ -1,3 +1,8 @@
+<?php
+    include_once('./admin/backend/produtos/exibir.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -72,8 +77,8 @@
     <!-- Inicio informações -->
     <section class="secao__info">
         <figure class="secao__info-figure">
-            <img src="./assets/img/desktopCapa.png" alt="" class="info__figure-img" />
-            <img src="./assets/img/mobileCapa.jpg" alt="" class="info__figure-img-mobile" />
+            <img src="https://i.imgur.com/FCgH5rJ.png" alt="" class="info__figure-img" />
+            <img src="https://i.imgur.com/F2FAzLp.jpg" alt="" class="info__figure-img-mobile" />
         </figure>
         <div class="secao__container">
             <div class="secao__container-texto">
@@ -106,6 +111,12 @@
             <section class="container__destaque">
                 <div class="destaque__slide">
                     <div class="destaque__slide-img">
+                        <?php
+
+                        if ($user_data = mysqli_fetch_assoc($result)) {
+                            echo "<td>" . " <img src=". $user_data['img'] .">" . "</td>";
+                        }
+                        ?>
                         <img id="slide-1" src="./assets/img/jaqueta cinza.png" alt="" />
                         <img id="slide-2" src="./assets/img/jaqueta preta.png" alt="" />
                         <img id="slide-3" src="./assets/img/jaqueta cinza.png" alt="" />
