@@ -48,16 +48,16 @@
                         <a href="" class="navegacao__lista-link linkselect">Inicio</a>
                     </li>
                     <li class="navegacao__lista-item">
-                        <a href="./assets/pages/produtos.html" class="navegacao__lista-link">Produtos</a>
+                        <a href="./pages/produtos.php" class="navegacao__lista-link">Produtos</a>
                     </li>
                     <li class="navegacao__lista-item">
-                        <a href="./assets/pages/contato.html" class="navegacao__lista-link">Contato</a>
+                        <a href="./pages/contato.php" class="navegacao__lista-link">Contato</a>
                     </li>
                     <li class="navegacao__lista-item">
-                        <a href="./assets/pages/comoComprar.html" class="navegacao__lista-link">Como Comprar</a>
+                        <a href="./pages/comoComprar.php" class="navegacao__lista-link">Como Comprar</a>
                     </li>
                     <li class="navegacao__lista-item">
-                        <a href="./assets/pages/perguntas.html" class="navegacao__lista-link">Perguntas Frequentes</a>
+                        <a href="./pages/perguntas.php" class="navegacao__lista-link">Perguntas Frequentes</a>
                     </li>
                     <i class="fa-solid fa-xmark" id="botao__fechar"></i>
                 </ul>
@@ -65,7 +65,7 @@
             </nav>
             <div class="secao__contatos">
                 <p class="contatos__login">
-                    <a href="assets/pages/formulario.html" class="contato__link">
+                    <a href="./pages/formulario.php" class="contato__link">
                         Login ou Cadastro
                     </a>
                 </p>
@@ -333,7 +333,7 @@
 
     <!-- Js da pagina -->
     <script src="./assets/js/script.js"></script>
-    <script src="assets/js/carroussel.js"></script>
+    <script src="./assets/js/carroussel.js"></script>
 
     <!-- Teste -->
     <script src="tests/carrousselTest.js"></script>
