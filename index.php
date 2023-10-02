@@ -111,12 +111,6 @@
             <section class="container__destaque">
                 <div class="destaque__slide">
                     <div class="destaque__slide-img">
-                        <?php
-
-                        if ($user_data = mysqli_fetch_assoc($result)) {
-                            echo "<td>" . " <img src=". $user_data['img'] .">" . "</td>";
-                        }
-                        ?>
                         <img id="slide-1" src="./assets/img/jaqueta cinza.png" alt="" />
                         <img id="slide-2" src="./assets/img/jaqueta preta.png" alt="" />
                         <img id="slide-3" src="./assets/img/jaqueta cinza.png" alt="" />
