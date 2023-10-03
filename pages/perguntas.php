@@ -9,16 +9,18 @@
     <meta name="keywords" content="roupas, mulher, rosa, e-commerce">
     <meta name="author" content="ForEich">
     <title>Perguntas Frequentes</title>
+
     <!-- icone da pagina -->
     <link rel="shortcut icon" href="../../assets/img/icon-tcc.png" />
+
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="../css/components/cabecalho/cabecalho.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css//components/botaoTopo/botaoTopo.css">
-    <link rel="stylesheet" href="../css/perguntasFrequentes/perguntasFrequentes.css">
-    <link rel="stylesheet" href="../css/components/instagram/insta.css">
-    <link rel="stylesheet" href="../css/components/rodape/rodape.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/components/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css//components/botaoTopo/botaoTopo.css">
+    <link rel="stylesheet" href="../assets/css/perguntasFrequentes/perguntasFrequentes.css">
+    <link rel="stylesheet" href="../assets/css/components/instagram/insta.css">
+    <link rel="stylesheet" href="../assets/css/components/rodape/rodape.css">
 
     <script src="https://kit.fontawesome.com/5cb800ca59.js" crossorigin="anonymous"></script>
 </head>
@@ -28,22 +30,32 @@
     <header class="cabecalho">
         <section class="cabecalho__secao">
             <figure class="secao__figure">
-                <img src="/assets/img/LogoTccPng.png" alt="" class="secao__img">
+                <img src="../assets/img/LogoTcc.png" alt="" class="secao__img">
             </figure>
             <nav class="secao__navegacao">
                 <ul class="navegacao__lista" id="side__menu">
-                    <li class="navegacao__lista-item"><a href="/index.html" class="navegacao__lista-link">Inicio</a></li>
-                    <li class="navegacao__lista-item"><a href="/assets/pages/produtos.html" class="navegacao__lista-link">Produtos</a></li>
-                    <li class="navegacao__lista-item"><a href="/assets/pages/contato.html" class="navegacao__lista-link">Contato</a></li>
-                    <li class="navegacao__lista-item"><a href="/assets/pages/comoComprar.html" class="navegacao__lista-link">Como Comprar</a></li>
-                    <li class="navegacao__lista-item"><a href="" class="navegacao__lista-link linkselect">Perguntas Frequentes</a></li>
+                    <li class="navegacao__lista-item">
+                        <a href="../index.php" class="navegacao__lista-link">Inicio</a>
+                    </li>
+                    <li class="navegacao__lista-item">
+                        <a href="./produtos.php" class="navegacao__lista-link">Produtos</a>
+                    </li>
+                    <li class="navegacao__lista-item">
+                        <a href="./contato.php" class="navegacao__lista-link">Contato</a>
+                    </li>
+                    <li class="navegacao__lista-item">
+                        <a href="./comoComprar.php" class="navegacao__lista-link">Como Comprar</a>
+                    </li>
+                    <li class="navegacao__lista-item">
+                        <a href="perguntas.php" class="navegacao__lista-link linkselect">Perguntas Frequentes</a>
+                    </li>
                     <i class="fa-solid fa-xmark" id="botao__fechar"></i>
                 </ul>
                 <i class="fa-solid fa-bars" id="menu__botao" onclick="openMenu()"></i>
             </nav>
             <div class="secao__contatos">
                 <p class="contatos__login">
-                    <a href="./formulario.html" class="contato__link">
+                    <a href="./formulario.php" class="contato__link">
                         Login ou Cadastro
                     </a>
                 </p>
