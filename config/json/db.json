@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "productId": "jaqueta-jeans-1",
+      "productName": "Jaqueta Jeans",
+      "productDescription": "Jaqueta Para Macacos",
+      "productPrice": 400.00,
+      "productImg": "https://cdn.discordapp.com/attachments/935762270024241233/1156771357506404424/visionario.jpg",
+      "productImg2": "https://cdn.discordapp.com/attachments/935762270024241233/1156771357506404424/visionario.jpg",
+      "productImg3": "https://cdn.discordapp.com/attachments/935762270024241233/1156771357506404424/visionario.jpg"
+    },
+    {
+      "productId": "jaqueta-jeans-2",
+      "productName": "Jaqueta Jeans 2",
+      "productDescription": "Jaqueta Para Macacos Dardos",
+      "productPrice": 100.00,
+      "productImg": "https://cdn.discordapp.com/attachments/935762270024241233/1157138253997150328/caberro.jpg?ex=651d733a&is=651c21ba&hm=c2406b94adc2734e998f0cf9087420df39fc40b9496dd416351c8758b4bd04f7&",
+      "productImg2": "https://cdn.discordapp.com/attachments/935763170948157460/1151923277451759706/F5Nc2J9XwAAOBDy.png",
+      "productImg3": "https://cdn.discordapp.com/attachments/935763170948157460/1151923277451759706/F5Nc2J9XwAAOBDy.png"
+    },
+    {
+      "productId": "jaqueta-jeans-3",
+      "productName": "Jaqueta Jeans 3",
+      "productDescription": "Jaqueta Para Super Macacos",
+      "productPrice": 120.00,
+      "productImg": "https://cdn.discordapp.com/attachments/935763170948157460/1151923277451759706/F5Nc2J9XwAAOBDy.png",
+      "productImg2": "https://cdn.discordapp.com/attachments/935763170948157460/1151923277451759706/F5Nc2J9XwAAOBDy.png",
+      "productImg3": "https://cdn.discordapp.com/attachments/935763170948157460/1151923277451759706/F5Nc2J9XwAAOBDy.png"
+    }
+  ]
+}

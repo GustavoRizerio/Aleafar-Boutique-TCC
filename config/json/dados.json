@@ -1,0 +1,14 @@
+[
+    {
+        "id": "12",
+        "nome_produto": "teste",
+        "descricao": "teste",
+        "estoque": "teste",
+        "valorvenda": "48.00",
+        "id_catg": "10",
+        "id_tamanho": "4",
+        "productImg": "",
+        "productImg2": "",
+        "productImg3": ""
+    }
+]
