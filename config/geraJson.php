@@ -40,7 +40,7 @@ if ($resultado->num_rows > 0) {
         $dados[] = $produto;
     }
 
-    // Especifique o caminho completo do arquivo onde você deseja salvar o JSON
+    // caminho completo do arquivo para salvar o JSON
     $caminhoCompleto = 'C:\xampp\htdocs\Aleafar-Boutique\config\json/dados.json';
 
     // Converte o array para JSON com identação de 2 espaços
