@@ -1,5 +1,5 @@
 <?php
-include_once('../backend/edit.php');
+    include_once('../../backend/edit.php');
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -10,8 +10,8 @@ include_once('../backend/edit.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <title>Formulário | GN</title>
-    <link rel="stylesheet" href="css/cadastro.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="stylesheet" href="../css/login.css">
     <style>
         p {
             font-size: 13px;
@@ -60,10 +60,12 @@ include_once('../backend/edit.php');
 
                         <input type="hidden" name="id" value=<?php echo $id; ?>>
                         <input type="submit" name="update" id="submit" class="inputBotao">
-                        <a href="./usuarios/usuarios.php">Voltar</a>
+                        <a href="./usuarios.php">Voltar</a>
                     </form>
                 </div>
-                <div class="container__img"><img src="./img/selfie2.jpg" alt="" style="width: 100%;" /></div>
+                <div class="container__img">
+                    <img src="https://i.imgur.com/6hmUsfZ.jpeg" alt="" style="width: 100%;" />
+                </div>
             </div>
         </div>
     </section>

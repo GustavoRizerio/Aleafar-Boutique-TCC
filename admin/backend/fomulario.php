@@ -1,6 +1,6 @@
 <?php
 
-include_once('../../config/config.php');
+include_once( __DIR__. '../../../config/config.php');
 
 // Verifica se o formulário foi enviado
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

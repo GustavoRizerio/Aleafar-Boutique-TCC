@@ -2,7 +2,6 @@ body{
     background: linear-gradient(0deg, rgba(255,255,255,1) 15%, rgba(239, 210, 215, 0.562) 35%, rgba(254,254,254,1) 88%);
 }
 
-
 .secao__info-figure {
     display: block;
     text-align: center;
@@ -45,10 +44,12 @@ i{
 }
 
 
-@media(max-width: 890px){
+@media(max-width: 895px){
     .secao__container{
+        flex-direction: column;
         flex-wrap: wrap;
         margin: 2.5rem 0 0 0;
+
     }
     .info__figure-img{
         display: none;
@@ -57,10 +58,6 @@ i{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .info__figure-img-mobile{
-        display: block;
-        text-align: center;
     }
 }
 

@@ -3,7 +3,7 @@
 session_start();
 
 //caminho absoluto
-include_once(__DIR__ . '/../../config/config.php');
+include_once( __DIR__. '../../../config/config.php');
 
 if((!isset($_SESSION['email']) == true) && (!isset($_SESSION['senha']) == true))
 {

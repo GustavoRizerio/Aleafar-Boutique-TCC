@@ -1,7 +1,7 @@
 <?php
 
 if (!empty($_GET['id'])) {
-    include_once('../../config/config.php');
+    include_once( __DIR__. '../../../config/config.php');
 
     $id = $_GET['id'];
 

@@ -3,12 +3,12 @@
     include_once('../../../config/config.php');
     if(isset($_POST['update']))
     {
-        $id_tamanho = $_POST['id_tamanho'];
+        $ID_tamanho= $_POST['ID_tamanho'];
         $tamanho = $_POST['tamanho'];
         
-        $sqlInsert = "UPDATE tamanho 
+        $sqlInsert = "UPDATE tamanho
         SET tamanho='$tamanho'
-        WHERE id_tamanho=$id_tamanho";
+        WHERE ID_tamanho=$ID_tamanho";
         $result = $conexao->query($sqlInsert);
         print_r($result);
     }

@@ -21,13 +21,13 @@
                         <input type="text" name="img" id="img" placeholder="Link da imagem" required />
                         <input type="text" name="descricao" id="descricao" placeholder="Descricao" required />
                         <input type="text" name="estoque" id="estoque" placeholder="Estoque" required />
-                        <input type="number" name="valorvenda" id="valorvenda" placeholder="Valor de venda" required />
+                        <input type="text" name="valorvenda" id="valorvenda" placeholder="Valor de venda" required />
 
                         <label for="id_catg">Categoria:</label>
                         <select name="id_catg" required>
                             <?php
 
-                            include '../../backend/config.php';
+                            include '../../../config/config.php';
                             
                             // Realiza a inserção na tabela de categoria
                             $conn = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);

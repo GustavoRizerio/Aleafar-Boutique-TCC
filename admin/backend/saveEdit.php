@@ -1,6 +1,6 @@
 <?php
     // isset -> serve para saber se uma variável está definida
-    include_once('../../config/config.php');
+    include_once( __DIR__. '../../../config/config.php');
     if(isset($_POST['update']))
     {
         $id = $_POST['id'];

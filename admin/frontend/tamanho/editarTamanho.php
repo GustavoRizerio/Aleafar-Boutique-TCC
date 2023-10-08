@@ -33,7 +33,7 @@ include_once('../../backend/tamanho/edit.php');
                         <input type="text" name="tamanho" id="tamanho" placeholder="Tamanho" required value=<?php echo $tamanho; ?>>
 
 
-                        <input type="hidden" name="id_tamanho" value=<?php echo $id_tamanho; ?>>
+                        <input type="hidden" name="ID_tamanho" value=<?php echo $id; ?>>
                         <input type="submit" name="update" id="submit" class="inputBotao" value="Atualizar">
 
                         <p class="conta__botao">

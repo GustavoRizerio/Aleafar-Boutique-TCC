@@ -126,7 +126,7 @@
             echo "<td>" . " <img src=". $user_data['img'] .">" . "</td>";
             echo "<td>" . $user_data['descricao'] . "</td>";
             echo "<td>" . $user_data['estoque'] . "</td>";
-            echo "<td>" . $user_data['valorvenda'] . "</td>";
+            echo "<td> R$" . $user_data['valorvenda'] . "</td>";
             echo "<td>
                         <a class='btn btn-sm btn-primary' href='./edit.php?id=$user_data[ID]' title='Editar'>
                             <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-pencil' viewBox='0 0 16 16'>

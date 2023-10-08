@@ -22,7 +22,7 @@
                         <label for="subcategoria">Subcategoria:</label>
                         <select name="subcategoria" required>
                             <?php
-                            include '../../backend/config.php';
+                            include '../../../config/config.php';
                             
                             // Realiza a inserção na tabela de categoria
                             $conn = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
@@ -52,7 +52,9 @@
                         </p>
                     </form>
                 </div>
-                <div class="container__img"><img src="../img/selfie.jpg" alt="" style="width: 100%;" /></div>
+                <div class="container__img">
+                    <img src="https://i.imgur.com/6hmUsfZ.jpeg" alt="" style="width: 100%;" />
+                </div>
             </div>
         </div>
     </section>

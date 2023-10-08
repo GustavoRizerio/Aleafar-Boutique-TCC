@@ -78,7 +78,6 @@
     <section class="secao__info">
         <figure class="secao__info-figure">
             <img src="https://i.imgur.com/FCgH5rJ.png" alt="" class="info__figure-img" />
-            <img src="https://i.imgur.com/F2FAzLp.jpg" alt="" class="info__figure-img-mobile" />
         </figure>
         <div class="secao__container">
             <div class="secao__container-texto">

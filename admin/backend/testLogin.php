@@ -3,7 +3,7 @@
     if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha']))
     {
         // Acessa
-        include_once('../../config/config.php');
+        include_once( __DIR__. '../../../config/config.php');
         $email = $_POST['email'];
         $senha = $_POST['senha'];
 

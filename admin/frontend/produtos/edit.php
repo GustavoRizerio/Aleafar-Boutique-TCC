@@ -38,7 +38,7 @@ include_once('../../backend/produtos/edit.php');
                         <p>estoque:</p>
                         <input type="text" name="estoque" id="estoque" placeholder="Estoque" required value=<?php echo $estoque; ?>>
                         <p>valor de venda:</p>
-                        <input type="number" name="valorvenda" id="valorvenda" placeholder="Valor de venda" required value=<?php echo $valorvenda; ?>>
+                        <input type="text" name="valorvenda" id="valorvenda" placeholder="Valor de venda" required value=<?php echo $valorvenda; ?>>
                         <input type="hidden" name="id" value=<?php echo $id; ?>>
                         <input type="submit" name="update" id="submit" class="inputBotao" value="Atualizar">
                         <p class="conta__botao">
