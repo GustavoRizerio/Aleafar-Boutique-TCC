@@ -48,13 +48,13 @@
                 </ul>
                 <i class="fa-solid fa-bars" id="menu__botao" onclick="openMenu()"></i>
             </nav>
-            <div class="secao__contatos">
+            <!-- <div class="secao__contatos">
                 <p class="contatos__login">
                     <a href="./formulario.php" class="contato__link">
                         Login ou Cadastro
                     </a>
                 </p>
-            </div>
+            </div> -->
         </section>
     </header>
     <!-- Fim do cabecalho -->
@@ -67,37 +67,27 @@
                     <p class="informacoes__item-texto">Escolha o produto que deseja comprar.</p>
                 </li>
                 <li class="informacoes__item">
-                    <p class="informacoes__item-texto">Clique no botão de "Adicionar ao carrinho" ou "Comprar". O seu
-                        produto será adicionado ao carrinho e você poderá seguir comprando, caso desejar.</p>
+                    <p class="informacoes__item-texto">Clique no botão de "Comprar". O seu
+                        produto será redirecionado ao whatsapp.</p>
                 </li>
                 <li class="informacoes__item">
-                    <p class="informacoes__item-texto">Você pode seguir adicionando outros produtos ao carrinho ou,
-                        então, clicar em "Finalizar Compra".</p>
+                    <p class="informacoes__item-texto">Complete com seus dados no whatsapp.</p>
                 </li>
                 <li class="informacoes__item">
-                    <p class="informacoes__item-texto">Complete com seus dados de contato e clique em "Continuar".</p>
+                    <p class="informacoes__item-texto">Coloque o endereço de onde você deseja receber o produto.</p>
                 </li>
                 <li class="informacoes__item">
-                    <p class="informacoes__item-texto">Coloque o endereço de onde você deseja receber o produto. Logo
-                        clique em "Continuar".</p>
-                </li>
-                <li class="informacoes__item">
-                    <p class="informacoes__item-texto">Selecione a forma de frete que desejar e clique em "Continuar".
+                    <p class="informacoes__item-texto">Selecione a forma de frete que desejar.
                         Os envios são feitos a partir dos Correios.</p>
                 </li>
                 <li class="informacoes__item">
                     <p class="informacoes__item-texto">Escolha o meio de pagamento.
                         Também poderá selecionar a opção de "Depósito / Transferência / cartão de credito.".
-                        Uma vez que você tenha escolhido o meio de pagamento, clique "Continuar".</p>
+                        Uma vez que você tenha escolhido o meio de pagamento, nossa atendente ira te ajudar.</p>
                 </li>
                 <li class="informacoes__item">
                     <p class="informacoes__item-texto">Finalmente na Confirmação da compra você pode revisar toda a
                         informação sobre a mesma, inclusive os seus dados. Logo clique em "Continuar".</p>
-                </li>
-                <li class="informacoes__item">
-                    <p class="informacoes__item-texto">Você será redirigido para outra tela para que complete os dados
-                        sobre a forma de pagamento escolhida. Depois de confirmar a compra receberá um email da nossa
-                        parte, esse não será um comprovante de pagamento.</p>
                 </li>
                 <li class="informacoes__item">
                     <p class="informacoes__item-texto">Uma vez creditado o pagamento, faremos um envio correspondente
@@ -123,7 +113,7 @@
     include_once '../includes/footer.php'
     ?>
     <!-- Fim do footer -->
-    <script src="/assets/js/script.js"></script>
+    <script src="../assets/js/script.js"></script>
 </body>
 
 </html>

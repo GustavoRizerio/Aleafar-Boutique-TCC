@@ -21,7 +21,7 @@
         else
         {
             //acessa
-            $result = mysqli_query($conexao, "INSERT INTO login(email,senha) 
+            $result = mysqli_query($conexao, "INSERT INTO login(email,senha)
             VALUES ('$email','$senha')");
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
@@ -31,5 +31,5 @@
     else
     {
         // Não acessa
-        header('Location: ../frontend/login.php');
+        header('Location: ../frontend/usuarios/usuarios.php');
     }

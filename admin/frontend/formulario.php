@@ -21,7 +21,7 @@
                         <label for="subcategoria">sexo:</label>
                         <select name="sexo" required>
                             <?php
-                            include_once('../../config/config.php');
+                            include_once(__DIR__ .'../../../config/config.php');
                             
                             // Realiza a inserção na tabela de categoria
                             $conn = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);

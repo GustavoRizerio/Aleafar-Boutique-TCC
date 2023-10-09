@@ -53,13 +53,13 @@
                 </ul>
                 <i class="fa-solid fa-bars" id="menu__botao" onclick="openMenu()"></i>
             </nav>
-            <div class="secao__contatos">
+           <!--  <div class="secao__contatos">
                 <p class="contatos__login">
                     <a href="./formulario.php" class="contato__link">
                         Login ou Cadastro
                     </a>
                 </p>
-            </div>
+            </div> -->
         </section>
     </header>
     <!-- Fim do cabecalho -->
@@ -158,7 +158,7 @@
 
     <!-- Fim do rodape -->
 
-    <script src="/assets/js/script.js"></script>
+    <script src="../assets/js/script.js"></script>
 </body>
 
 </html>
