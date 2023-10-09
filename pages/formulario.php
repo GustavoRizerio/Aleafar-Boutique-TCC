@@ -1,3 +1,43 @@
+<?php
+    session_start();
+    if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha']))
+    {
+        // Acessa
+        include_once( __DIR__. '../../../config/config.php');
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+
+        $sql = "SELECT * FROM cliente WHERE email = '$email' and senha = '$senha'";
+        
+
+        $result = $conexao->query($sql);
+
+        if(mysqli_num_rows($result) < 1)
+        {
+            unset($_SESSION['email']);
+            unset($_SESSION['senha']);
+            header('Location: ../../pages/formulario.php');
+        }
+        else
+        {
+            //acessa
+            $result = mysqli_query($conexao, "INSERT INTO login(email,senha)
+            VALUES ('$email','$senha')");
+            $_SESSION['email'] = $email;
+            $_SESSION['senha'] = $senha;
+            header('Location: ../../index.php');
+            $usuarioLogado = true;
+        }
+    }
+    else
+    {
+        // Não acessa
+        header('Location: ../../pages/formulario.php');
+    }
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -21,7 +61,7 @@
 
 </head>
   <body>
-    <a href="../index.php" class="link__voltar">
+    <a href="./produtos.php" class="link__voltar">
       <i class="fa-solid fa-arrow-left fa-xl" style="color: #000;"></i>
     </a>
     <section>
@@ -29,11 +69,11 @@
         <div class="usuario container__login">
           <div class="container__img"><img src="https://i.imgur.com/F2FAzLp.jpg" alt="" /></div>
           <div class="container__formulario">
-            <form action="">
+            <form action="../backend/login/login.php" method="POST">
               <h2>Login</h2>
-              <input type="text" name="" placeholder="Nome" class="input__login" required/>
-              <input type="password" name="" placeholder="Senha" class="input__login" required/>
-              <input type="submit" name="" value="Entrar" class="input__login" />
+              <input type="text" name="email" placeholder="Email" class="input__login" required />
+              <input type="password" name="senha" placeholder="Senha" class="input__login" required />
+              <input type="submit" name="submit" value="Enviar" class="input__login" />
               <p class="conta__botao">
                 Não tem uma conta ?
                 <a href="#" onclick="cadastro();">Se cadastre.</a>

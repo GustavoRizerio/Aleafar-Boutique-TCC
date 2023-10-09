@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,7 +20,6 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css//components/botaoTopo/botaoTopo.css">
     <link rel="stylesheet" href="../assets/css/perguntasFrequentes/perguntasFrequentes.css">
-    <link rel="stylesheet" href="../assets/css/components/instagram/insta.css">
     <link rel="stylesheet" href="../assets/css/components/rodape/rodape.css">
 
     <script src="https://kit.fontawesome.com/5cb800ca59.js" crossorigin="anonymous"></script>
@@ -72,15 +72,16 @@
                     <p class="perguntas__texto">Como faço para fazer uma compra no seu site?</p>
                     <ul>
                         <li>
-                            <p class="respostas__faq">Para comprar em nosso site basta seguir o tutorial da <a href="/assets/pages/comoComprar.html">página de compras</a></p>
+                            <p class="respostas__faq">Para comprar em nosso site basta seguir o tutorial da <a href="./comoComprar.php">página de compras</a></p>
                         </li>
                     </ul>
                 </li>
                 <li class="perguntas">
-                    <p class="perguntas__texto">Como posso entrar em contato com o serviço de atendimento ao cliente em caso de dúvidas ou problemas?</p>
+                    <p class="perguntas__texto">Como posso entrar em contato com o serviço de atendimento ao cliente em
+                        caso de dúvidas ou problemas?</p>
                     <ul>
                         <li>
-                            <p class="respostas__faq">Para entrar em contato conosco basta acessar o formulário de <a href="/assets/pages/contato.html">contato</a></p>
+                            <p class="respostas__faq">Para entrar em contato conosco basta acessar o formulário de <a href="./contato.php">contato</a></p>
                         </li>
                     </ul>
                 </li>
@@ -88,7 +89,8 @@
                     <p class="perguntas__texto">Como posso saber se um item está em estoque?</p>
                     <ul>
                         <li>
-                            <p class="respostas__faq">Quando um item está forá de estoque ele é retirado da página de produtos</p>
+                            <p class="respostas__faq">Quando um item está forá de estoque ele é retirado da página de
+                                produtos</p>
                         </li>
                     </ul>
                 </li>
@@ -104,7 +106,7 @@
                     <p class="perguntas__texto">Oque devo fazer se o produto não chega em bom estado?</p>
                     <ul>
                         <li>
-                            <p class="respostas__faq">Entre em contato conosco pela <a href="/assets/pages/contato.html">página de contato</a></p>
+                            <p class="respostas__faq">Entre em contato conosco pela <a href="./contato.php">página de contato</a></p>
                         </li>
                     </ul>
                 </li>
@@ -118,81 +120,44 @@
                 </li>
                 <li class="perguntas">
                     <p class="perguntas__texto">Como as compras são enviadas?</p>
-                        <ul>
-                            <li>
-                                <p class="respostas__faq">os envios são feitos pelos correios</p>
-                            </li>
-                        </ul>
+                    <ul>
+                        <li>
+                            <p class="respostas__faq">os envios são feitos pelos correios</p>
+                        </li>
+                    </ul>
                 </li>
                 <li class="perguntas">
                     <p class="perguntas__texto">Qual é o custo de envio?
                     <ul>
                         <li>
-                            <p class="respostas__faq">O custo de envio será mostrado com base ao total da compra e sua localização, no checkout, no momento antes da compra.</p>
-                        </li>
-                    </ul>    
-                </li>
-                <li class="perguntas">
-                    <p class="perguntas__texto">pergunta
-                    <ul>
-                        <li>
-                            
+                            <p class="respostas__faq">O custo de envio será decidido com base ao total da compra e sua
+                                localização, no whatszapp.</p>
                         </li>
                     </ul>
                 </li>
-                <li class="perguntas">
-                    <p class="perguntas__texto">pergunta</p>
-                    <ul>
-                        <li>
-                            
-                        </li>
-                    </ul>    
-                </li>
             </ol>
         </div>
-        <p class="duvida__contato">Alguma dúvida? entre em contato conosco! <br> <a href="./contato.html">Página de contato</a></p>
+        <p class="duvida__contato">Alguma dúvida? entre em contato conosco! <br> <a href="./contato.php">Página de
+                contato</a></p>
     </section>
     <!-- Fim das informações -->
-    <div class="insta">
-        <h3 class="feedback__titulo-instagram">Siga-nos</h3>
-        <figure>
-            <a href="https://www.instagram.com/foreich.technologies/" target="_blank"><img
-                    src="/assets/img/instagramPinkIcon.png" alt="" class="feedback__instagram-icon"></a>
-        </figure>
-    </div>
-    <!-- Começo footer  -->
-<footer class="rodape__container">
-    <!-- <div class="div1">
-        <h3>Roni decide</h3>
-    </div> -->
-    <div class="div1">
-        <h3>Formas de pagamento</h3>
-        <div class="textos__rodape">
-            <p><i class="fa-solid fa-credit-card"></i> Cartão</p>
-            <p><i class="fa-brands fa-pix"></i> PIX</p>
-            <p><i class="fa-solid fa-money-bill"></i> Dinheiro</p>
-        </div>
+    
+    <!-- Insta -->
 
-    </div>
-    <div class="div2">
-        <h3>Formas de Envio</h3>
-        <div class="textos__rodape">
-            <p><i class="fa-solid fa-box"></i> Correios</p>
-            <p><i class="fa-solid fa-truck-fast"></i> Entrega Expressa</p>
-            <p><i class="fa-solid fa-house"></i> Entregas Fisicas</p>
-        </div>
-    </div>
-    <div class="div3">
-        <h3>Contato</h3>
-        <div class="textos__rodape">
-            <p><i class="fa-solid fa-phone"></i> 4002-8922</p>
-            <p><i class="fa-solid fa-phone"></i> 4002-8922</p>
-            <p><i class="fa-solid fa-envelope"></i> foreich@suporte.com</p>
-        </div>
-    </div>
-    <div class="div4">&copy; Todos os direitos reservados | Feito com ❤️ por ForEich LTDA</div>
-</footer>
-<!-- Fim do footer -->
+    <?php
+        include_once '../includes/insta.php'
+    ?>
+
+    <!-- Fim do insta -->
+
+    <!-- Rodape -->
+
+    <?php
+        include_once '../includes/footer.php'
+    ?>
+
+    <!-- Fim do rodape -->
+
     <script src="/assets/js/script.js"></script>
 </body>
 

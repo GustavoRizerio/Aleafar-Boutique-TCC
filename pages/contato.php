@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="../assets/css/components/cabecalho/cabecalho.css">
     <link rel="stylesheet" href="../assets/css/components/botaoTopo/botaoTopo.css">
     <link rel="stylesheet" href="../assets/css/Contato/contato.css">
-    <link rel="stylesheet" href="../assets/css/components/instagram/insta.css">
     <link rel="stylesheet" href="../assets/css/components/rodape/rodape.css">
 
     <script src="https://kit.fontawesome.com/5cb800ca59.js" crossorigin="anonymous"></script>
@@ -84,46 +83,21 @@
                 <button name="enivar" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
             </fieldset>
         </form>
-        <div class="insta">
-            <h3 class="feedback__titulo-instagram">Siga-nos</h3>
-            <figure>
-                <a href="https://www.instagram.com/foreich.technologies/" target="_blank"><img
-                        src="/assets/img/instagramPinkIcon.png" alt="" class="feedback__instagram-icon"></a>
-            </figure>
-        </div>
-    </div>
-    <!-- Começo footer  -->
-    <footer class="rodape__container">
-        <!-- <div class="div1">
-            <h3>Roni decide</h3>
-        </div> -->
-        <div class="div1">
-            <h3>Formas de pagamento</h3>
-            <div class="textos__rodape">
-                <p><i class="fa-solid fa-credit-card"></i> Cartão</p>
-                <p><i class="fa-brands fa-pix"></i> PIX</p>
-                <p><i class="fa-solid fa-money-bill"></i> Dinheiro</p>
-            </div>
 
-        </div>
-        <div class="div2">
-            <h3>Formas de Envio</h3>
-            <div class="textos__rodape">
-                <p><i class="fa-solid fa-box"></i> Correios</p>
-                <p><i class="fa-solid fa-truck-fast"></i> Entrega Expressa</p>
-                <p><i class="fa-solid fa-house"></i> Entregas Fisicas</p>
-            </div>
-        </div>
-        <div class="div3">
-            <h3>Contato</h3>
-            <div class="textos__rodape">
-                <p><i class="fa-solid fa-phone"></i> 4002-8922</p>
-                <p><i class="fa-solid fa-phone"></i> 4002-8922</p>
-                <p><i class="fa-solid fa-envelope"></i> foreich@suporte.com</p>
-            </div>
-        </div>
-        <div class="div4">&copy; Todos os direitos reservados | Feito com ❤️ por ForEich LTDA</div>
-    </footer>
+        <!-- Insta -->
+
+        <?php
+        include_once '../includes/insta.php'
+            ?>
+
+        <!-- Fim do insta -->
+
+    </div>
+
+    <!-- Começo footer  -->
+    <?php
+    include_once '../includes/footer.php'
+        ?>
     <!-- Fim do cabecalho -->
     <script src="/assets/js/script.js"></script>
 </body>
