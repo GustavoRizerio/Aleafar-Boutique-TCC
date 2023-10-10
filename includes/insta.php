@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="../assets/css/components/instagram/insta.css">
 
     <style>
+        .insta{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         .feedback__instagram-icon {
             width: 3.375rem;
             height: 3.375rem;

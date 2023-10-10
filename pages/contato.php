@@ -66,33 +66,33 @@
 
     <div class="container">
         <h2 class="titulo">Contato</h2>
-        <form id="contact" action="" method="post">
+        <form id="contact" action="../backend/contato/cadastro.php" method="post">
             <fieldset>
-                <input placeholder="Seu nome" type="text" tabindex="1" required autofocus>
+                <input placeholder="Seu nome" type="text" tabindex="1" name="nome" required autofocus>
             </fieldset>
             <fieldset>
-                <input placeholder="Endereço de email" type="email" tabindex="2" required>
+                <input placeholder="Endereço de email" type="email" name="email" tabindex="2" required>
             </fieldset>
             <fieldset>
-                <input placeholder="Numero de telefone" type="tel" tabindex="3" required>
+                <input placeholder="Numero de telefone" type="tel" name="telefone" tabindex="3" required>
             </fieldset>
             <fieldset>
-                <textarea placeholder="Escreva sua mensagem aqui...." class="teste" tabindex="5" required></textarea>
+                <textarea placeholder="Escreva sua mensagem aqui...." class="teste" name="mensagem" tabindex="5" required></textarea>
             </fieldset>
             <fieldset class="fieldButton">
                 <button name="enivar" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
             </fieldset>
         </form>
 
-        <!-- Insta -->
-
-        <?php
-        include_once '../includes/insta.php'
-            ?>
-
-        <!-- Fim do insta -->
-
+    <?php
+    include_once '../includes/insta.php'
+        ?>
+        
     </div>
+    <!-- Insta -->
+
+
+    <!-- Fim do insta -->
 
     <!-- Começo footer  -->
     <?php
