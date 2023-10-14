@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../usuarios/usuarios.css">
+    <link rel="stylesheet" href="../css/usuarios.css">
     <link rel="stylesheet" href="../css/cabecalhos.css">
 
     <style>
@@ -48,6 +48,9 @@
                     </li>
                     <li class="navegacao__lista-item">
                         <a href="../tamanho/tamanho.php" class="navegacao__lista-link">Tamanho</a>
+                    </li>
+                    <li class="navegacao__lista-item">
+                        <a href="../contato/contato.php" class="navegacao__lista-link">Contato</a>
                     </li>
                     <i class="fa-solid fa-xmark" id="botao__fechar"></i>
                 </ul>

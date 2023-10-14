@@ -12,22 +12,24 @@
 
 <body>
     <section>
-        <div class="container">
-            <div class="usuario container__cadastro">
-                <div class="container__formulario">
+        <div class="container" style="height: 600px; width: 1000px;">
+            <div class="usuario container__cadastro" >
+                <div class="container__formulario" >
                     <form action="../../backend/produtos/cadastro.php" method="POST">
                         <h2>Cadastro Produtos</h2>
                         <input type="text" name="nome_produto" id="nome_produto" placeholder="Nome" required />
                         <input type="text" name="img" id="img" placeholder="Link da imagem" required />
+                        <input type="text" name="img2" id="img2" placeholder="Link da imagem" required />
+                        <input type="text" name="img3" id="img3" placeholder="Link da imagem" required />
                         <input type="text" name="descricao" id="descricao" placeholder="Descricao" required />
                         <input type="text" name="estoque" id="estoque" placeholder="Estoque" required />
                         <input type="text" name="valorvenda" id="valorvenda" placeholder="Valor de venda" required />
 
                         <label for="id_catg">Categoria:</label>
-                        <select name="id_catg" required>
+                        <select name="id_catg" id="id_catg" required>
                             <?php
 
-                            include '../../../config/config.php';
+                            include_once '../../../config/config.php';
                             
                             // Realiza a inserção na tabela de categoria
                             $conn = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
@@ -52,10 +54,10 @@
                         </select>
                         <br>
                         <label for="id_tamanho">Tamanho:</label>
-                        <select name="id_tamanho" required>
+                        <select name="id_tamanho" id="id_tamanho" required>
                             <?php
 
-                            include '../../backend/config.php';
+                            include_once '../../backend/config.php';
                             
                             $conn = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
                             

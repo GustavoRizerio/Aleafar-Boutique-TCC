@@ -5,7 +5,7 @@ if (!empty($_GET['id'])) {
 
     $id = $_GET['id'];
 
-    $sqlSelect = "SELECT *  FROM subcategoria WHERE id=$id";
+    $sqlSelect = "SELECT * FROM subcategoria WHERE id=$id";
 
     $result = $conexao->query($sqlSelect);
 

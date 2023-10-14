@@ -92,6 +92,8 @@ CREATE TABLE `produtos` (
   `id_catg` int(11) NOT NULL,
   `id_tamanho` int(11) NOT NULL,
   `img` varchar(255) NOT NULL,
+  `img2` varchar(255) NOT NULL,
+  `img3` varchar(255) NOT NULL,
   `nome_produto` varchar(80) DEFAULT NULL,
   `descricao` varchar(150) DEFAULT NULL,
   `estoque` varchar(5) NOT NULL,

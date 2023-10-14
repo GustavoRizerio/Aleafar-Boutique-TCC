@@ -1,5 +1,5 @@
 <?php
-include_once('../../config/config.php');
+include_once( __DIR__ . '../../../config/config.php');
 
 if (!empty($_GET['search'])) {
     $data = $_GET['search'];
