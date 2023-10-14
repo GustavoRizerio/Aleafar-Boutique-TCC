@@ -339,5 +339,4 @@
     <!-- Teste -->
     <script src="tests/carrousselTest.js"></script>
 </body>
-
 </html>
