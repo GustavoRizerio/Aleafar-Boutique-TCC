@@ -26,14 +26,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $ID = $conexao->insert_id;
 
         $data = array(
-            'id' => $ID,
+            'productId' => $ID,
             'id_catg' => $idcatg,
             'id_tamanho' => $idtamanho,
+            'productName' => $nome_produto,
+            'productDescription' => $descricao,
+            'productEstoque' => $estoque,
+            'productPrice' => $valorvenda,
             'productImg' => $img,
-            'nome_produto' => $nome_produto,
-            'descricao' => $descricao,
-            'estoque' => $estoque,
-            'valorvenda' => $valorvenda,
             'productImg2' => $img2,
             'productImg3' => $img3
         );

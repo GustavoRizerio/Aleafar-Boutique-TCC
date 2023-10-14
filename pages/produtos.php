@@ -6,16 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos</title>
-    <link rel="shortcut icon" href="../assets/img/Logo.jpeg" />
 
     <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="shortcut icon" href="../assets/img/LogoTcc.png" />
     <link rel="stylesheet" href="../assets/css/components/cabecalho/cabecalho.css">
     <link rel="stylesheet" href="../assets/css/components/botaoTopo/botaoTopo.css">
     <link rel="stylesheet" href="../assets/css/components/rodape/rodape.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/components/instagram/insta.css">
     <link rel="stylesheet" href="../assets/css/produtos/produtos.css">
+    <link rel="stylesheet" href="../assets/css/paginaDePrudutos/paginaDePrudutos.css">
 
     <script src="https://kit.fontawesome.com/5cb800ca59.js" crossorigin="anonymous"></script>
+    <script src="../assets/js/loadProducts.js" defer></script>
 </head>
 
 <body>
@@ -32,29 +35,21 @@
                         <a href="../index.php" class="navegacao__lista-link">Inicio</a>
                     </li>
                     <li class="navegacao__lista-item">
-                        <a href="produtos.php" class="navegacao__lista-link linkselect">Produtos</a>
+                        <a href="./produtos.php" class="navegacao__lista-link linkselect">Produtos</a>
                     </li>
                     <li class="navegacao__lista-item">
                         <a href="./contato.php" class="navegacao__lista-link">Contato</a>
-                    </li>
                     </li>
                     <li class="navegacao__lista-item">
                         <a href="./comoComprar.php" class="navegacao__lista-link">Como Comprar</a>
                     </li>
                     <li class="navegacao__lista-item">
-                        <a href="./perguntas.php" class="navegacao__lista-link">Perguntas Frequentes</a>
+                        <a href="perguntas.php" class="navegacao__lista-link">Perguntas Frequentes</a>
                     </li>
                     <i class="fa-solid fa-xmark" id="botao__fechar"></i>
                 </ul>
                 <i class="fa-solid fa-bars" id="menu__botao" onclick="openMenu()"></i>
             </nav>
-            <!-- <div class="secao__contatos">
-                <p class="contatos__login">
-                    <a href="./formulario.php" class="contato__link">
-                        Login ou Cadastro
-                    </a>
-                </p>
-            </div> -->
         </section>
     </header>
     <!-- Fim do cabecalho -->
@@ -72,123 +67,26 @@
 
     <h1 class="produtos__titulo">Produtos</h1>
 
-    <div class="produtos__container">
-        <div class="card">
-            <div class="container__imagem">
-                <img src="../img/jaqueta cinza.png" alt="" class="imagem__teste">
-            </div>
-            <div class="container__informacoes">
-                <h3>Jaqueta</h3>
-                <h2 class="preco">R$ 48<small>.99</small></h2>
-                <a href="#" class="comprar">Comprar Agora</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="container__imagem">
-                <img src="../img/conjuntoJeans.jpg" alt="">
-            </div>
-            <div class="container__informacoes">
-                <h3>Conjunto Jeans</h3>
-                <h2 class="preco">R$ 48<small>.99</small></h2>
-                <a href="#" class="comprar">Comprar Agora</a>
-            </div>
-
-        </div>
-        <div class="card">
-            <div class="container__imagem">
-                <img src="../img/bda1f8c81ca717a6bb7816406701fee0.jpg" alt="">
-            </div>
-            <div class="container__informacoes">
-                <h3>Conjunto Jeans</h3>
-                <h2 class="preco">R$ 48<small>.99</small></h2>
-                <a href="#" class="comprar">Comprar Agora</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="container__imagem">
-                <img src="../img/fbdfbcd697a23485c07884f15787192f.jpg" alt="">
-            </div>
-            <div class="container__informacoes">
-                <h3>Conjunto Jeans</h3>
-                <h2 class="preco">R$ 48<small>.99</small></h2>
-                <a href="#" class="comprar">Comprar Agora</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="container__imagem">
-                <img src="../img/jaqueta preta.png" alt="">
-            </div>
-            <div class="container__informacoes">
-                <h3>Conjunto Jeans</h3>
-                <h2 class="preco">R$ 48<small>.99</small></h2>
-                <a href="#" class="comprar">Comprar Agora</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="container__imagem">
-                <img src="../img/6252ffa2e0cc7bb51d40039a2c94fe6c.jpg" alt="">
-            </div>
-            <div class="container__informacoes">
-                <h3>Lora Gata</h3>
-                <h2 class="preco">R$ 48<small>.99</small></h2>
-                <a href="#" class="comprar">De graça pro Roni</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="container__imagem">
-                <img src="../img/8c7618d1eeefd492443a585e0b2039c7.jpg" alt="">
-            </div>
-            <div class="container__informacoes">
-                <h3>Legging</h3>
-                <h2 class="preco">R$ 48<small>.99</small></h2>
-                <a href="#" class="comprar">Comprar</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="container__imagem">
-                <img src="../img/7bb73f972d007ee4b69f70a9574f4b6a.jpg" alt="">
-            </div>
-            <div class="container__informacoes">
-                <h3>Casaco</h3>
-                <h2 class="preco">R$ 71<small>.99</small></h2>
-                <a href="#" class="comprar">Comprar</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="container__imagem">
-                <img src="../img/b0477e418c9bb9831ac98d274f793b9d.jpg" alt="">
-            </div>
-            <div class="container__informacoes">
-                <h3>Blusa Lã de Carneiro</h3>
-                <h2 class="preco">R$ 135<small>.68</small></h2>
-                <a href="#" class="comprar">Comprar</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="container__imagem">
-                <img src="../img/selfie.jpg" alt="">
-            </div>
-            <div class="container__informacoes">
-                <h3>Top sem decote</h3>
-                <h2 class="preco">R$ 25<small>.48</small></h2>
-                <a href="#" class="comprar">Comprar</a>
-            </div>
-        </div>
+    <div class="produtos__container" id="produtosContainer">
+        
     </div>
-
 
     <!-- Insta -->
 
     <?php
-    include_once '../includes/insta.php'
+        include_once '../includes/insta.php'
     ?>
 
     <!-- Fim do insta -->
 
-    <!-- Começo footer  -->
+    <!-- Rodape -->
+
     <?php
-    include_once '../includes/footer.php'
+        include_once '../includes/footer.php'
     ?>
+
+    <!-- Fim do rodape -->
+    <span class="product__Container"></span>
     <!-- Fim do footer -->
     <script src="../assets/js/script.js"></script>
 </body>

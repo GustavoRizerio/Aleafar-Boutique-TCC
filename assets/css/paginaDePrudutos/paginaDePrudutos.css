@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+.link__voltar{
+  z-index: 10;
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+  margin: 20px;
+}
+.product__Section {
+  top: 0;
+  position: absolute;
+}
+.section-product-page {
+  position: relative;
+  max-width: calc(100% - 40px);
+  width: 860px;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 100px 0;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  visibility: hidden;
+}
+
+.color-btn:checked+label,
+.color-btn:not(:checked)+label {
+  position: relative;
+  height: 40px;
+  transition: all 200ms linear;
+  border-radius: 4px;
+  width: 40px;
+  overflow: hidden;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  box-shadow: 0 12px 35px 0 rgba(16, 39, 112, .25);
+  z-index: 10;
+  background-position: center;
+  background-size: cover;
+  border: 3px solid transparent;
+}
+
+.color-btn:checked+label {
+  border-color: #3c3c3d;
+  transform: scale(1.1);
+}
+
+label.first-color {
+  margin-left: 480px;
+  background-color: #40566e;
+}
+
+label.color-2 {
+  background-color: #75472c;
+}
+
+label.color-3 {
+  background-color: #d66422;
+}
+
+.img-wrap {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 400px;
+  height: 70%;
+  display: inline-block;
+  z-index: 9;
+  transition: all 550ms linear;
+  transition-delay: 100ms;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('6252ffa2e0cc7bb51d40039a2c94fe6c.jpg');
+  opacity: 0;
+  border-radius: 10px;
+  box-shadow: 0px 48px 43px -45px rgba(0,0,0,1);
+}
+
+.for-color-1:checked~.img-wrap.chair-1,
+.for-color-2:checked~.img-wrap.chair-2,
+.for-color-3:checked~.img-wrap.chair-3 {
+  opacity: 1;
+}
+
+/* .img-wrap.chair-1 {
+  background-image: url('../../img/blusa-azul.webp');
+} */
+
+/* .img-wrap.chair-2 {
+  background-image: url(../../img/blusa-marrom.webp);
+}
+
+.img-wrap.chair-3 {
+  background-image: url('../../img/blusa-laranja.webp');
+} */
+
+.back-color {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 1;
+  backdrop-filter: blur(7px);
+  background-image: linear-gradient(196deg, #8a9fb27e, #5f79917e);
+  transition: all 250ms linear;
+  transition-delay: 300ms;
+}
+
+.for-color-2:checked~.back-color.chair-2 {
+  backdrop-filter: blur(7px);
+  background-image: linear-gradient(196deg, #b4764f7e, #9a58337e);
+  opacity: 1;
+}
+
+.back-color.chair-3 {
+  backdrop-filter: blur(7px);
+  background-image: linear-gradient(196deg, #e2742f7e, #af4c127e);
+  opacity: 0;
+}
+
+.for-color-3:checked~.back-color.chair-3 {
+  opacity: 1;
+}
+
+.info-wrap {
+  position: relative;
+  margin-left: 480px;
+  z-index: 10;
+  display: block;
+  text-align: left;
+}
+
+h2.product-page {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.2;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h4.product-page {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+h5.product-page {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.desc-btn+label{
+  position: relative;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #fff;
+  margin-right: 25px;
+}
+
+.desc-sec {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-product-page {
+  position: relative;
+  font-weight: 500; 
+  font-size: 16px;
+  height: 3.125rem;
+  border-radius: 0.30rem;
+  width: 15.5rem;
+  letter-spacing: 0.0625rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  color: #fff;
+  box-shadow: 0 6px 15px 0 rgba(16, 39, 112, .15);
+  transition: all .5s linear;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.btn-product-page:hover {
+  box-shadow: 0 12px 35px 0 rgba(7, 62, 245, 0.25);
+  background-color: #000;
+}
+
+.btn-product-page:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  z-index: -1;
+  background-color: #40566e;
+  transition: background-color 250ms 300ms ease;
+}
+
+.for-color-2:checked~.info-wrap .btn-product-page:before {
+  background-color: #75472c;
+}
+
+.for-color-3:checked~.info-wrap .btn-product-page:before {
+  background-color: #d66422;
+}
+
+.clearfix {
+  width: 100%;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+@media screen and (max-width: 991px) {
+  .section-product-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  label.first-color {
+    margin-left: 0;
+  }
+
+  .info-wrap {
+    margin-left: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .img-wrap {
+    width: 375px;
+    height: 350px;
+    left: 50%;
+    margin-left: -190px;
+  }
+
+  .mob-margin {
+    margin-top: 380px;
+  }
+
+  .desc-btn:checked+label,
+  .desc-btn:not(:checked)+label {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .color-btn:checked+label,
+  .color-btn:not(:checked)+label {
+    height: 40px;
+    width: 40px;
+    margin: 5px 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .section-product-page {
+    width: 50%;
+  }
+
+  .info-wrap {
+    width: 280px;
+  }
+
+  .color-btn:checked+label,
+  .color-btn:not(:checked)+label {
+    height: 30px;
+    width: 30px;
+    margin: 5px 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px){
+  h2.product-page{
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+
+  h4.product-page{
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .img-wrap{
+    width: 325px;
+    height: 310px;
+    left: 61%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h2.product-page{
+    font-size: 18px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+  }
+
+  h4.product-page{
+    font-size: 16px;
+  }
+  
+  .color-btn:checked+label,
+  .color-btn:not(:checked)+label {
+    height: 25px;
+    width: 25px;
+    margin: 5px 10px;
+    text-align: center;
+  }
+
+  .img-wrap{
+    width: 280px;
+    height: 310px;
+    left: 78%;
+  }
+}
