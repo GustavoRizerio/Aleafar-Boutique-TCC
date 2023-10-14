@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -11,7 +8,7 @@
     <meta name="robots" content="index, follow">
     <meta name="description" content="e-commerce de roupas femininas">
     <meta name="keywords" content="roupas, mulher, rosa, e-commerce">
-    <meta name="author" content="ForEich">
+    <meta name="author" content="ForEich Technologies">
 
     <!-- icone da pagina -->
     <link rel="shortcut icon" href="assets/img/icon-tcc.png" />
@@ -317,17 +314,15 @@
                 <img src="assets/img/feedback.jpg" alt="feedback cliente satisfeito" class="feedback__figure-img">
             </figure>
         </div>
-         <!-- Insta -->
-
+        
+    <!-- Insta -->
     <?php
     include_once './includes/insta.php'
         ?>
-
     <!-- Fim do insta -->
+
     </article>
     <!-- Fim do feedback -->
-
-   
 
     <!-- Rodape -->
 
