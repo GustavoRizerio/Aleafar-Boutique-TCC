@@ -1,0 +1,52 @@
+{
+    "produtos": [
+        {
+            "productId": 42,
+            "id_catg": "17",
+            "id_tamanho": "10",
+            "productName": "teste",
+            "productDescription": "teste",
+            "productEstoque": "teste",
+            "productPrice": "teste",
+            "productImg": "teste",
+            "productImg2": "teste",
+            "productImg3": "teste"
+        },
+        {
+            "productId": 44,
+            "id_catg": "17",
+            "id_tamanho": "10",
+            "productName": "teste", 
+            "productDescription": "teste",
+            "productEstoque": "teste",
+            "productPrice": "22.90",
+            "productImg": "teste",
+            "productImg2": "teste",
+            "productImg3": "teste"
+        },
+        {
+            "productId": 46,
+            "id_catg": "17",
+            "id_tamanho": "10",
+            "productName": "teste",
+            "productDescription": "teste",
+            "productEstoque": "teste",
+            "productPrice": "teste",
+            "productImg": "teste",
+            "productImg2": "teste",
+            "productImg3": "teste"
+        },
+        {
+            "productId": 47,
+            "id_catg": "18",
+            "id_tamanho": "11",
+            "productName": "teste",
+            "productDescription": "teste",
+            "productEstoque": "teste",
+            "productPrice": "teste",
+            "productImg": "teste",
+            "productImg2": "teste",
+            "productImg3": "teste"
+        }
+    ]
+}

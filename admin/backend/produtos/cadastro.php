@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         );
 
         $fileData = json_decode(file_get_contents($jsonFile), true);
-        $fileData[] = $data;
+        $fileData['produtos'][] = $data;
 
         // Adiciona a opção JSON_PRETTY_PRINT para formatar o JSON
         file_put_contents($jsonFile, json_encode($fileData, JSON_PRETTY_PRINT));
