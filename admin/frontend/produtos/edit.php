@@ -24,7 +24,7 @@ include_once('../../backend/produtos/edit.php');
 
 <body>
     <section>
-        <div class="container">
+        <div class="container" style="height: 600px; width: 1000px;">
             <div class="usuario container__cadastro">
                 <div class="container__formulario">
                     <form action="../../backend/produtos/saveEdit.php" method="POST">
@@ -33,6 +33,10 @@ include_once('../../backend/produtos/edit.php');
                         <input type="text" name="nome_produto" id="nome_produto" placeholder="Nome" required value=<?php echo $nome_produto; ?> />
                         <p>img:</p>
                         <input type="text" name="img" id="img" placeholder="Link da imagem" required value=<?php echo $img; ?>>
+                        <p>img2:</p>
+                        <input type="text" name="img2" id="img2" placeholder="Link da imagem" required value=<?php echo $img2; ?>>
+                        <p>img3:</p>
+                        <input type="text" name="img3" id="img3" placeholder="Link da imagem" required value=<?php echo $img3; ?>>
                         <p>descricao:</p>
                         <input type="text" name="descricao" id="descricao" placeholder="Descricao" required value=<?php echo $descricao; ?>>
                         <p>estoque:</p>
