@@ -44,11 +44,11 @@ async function buyProduct(p) {
         </div>
         <div class="clearfix"></div>
             <input class="color-btn for-color-1" type="radio" id="color-1" name="color-btn" checked />
-            <label class="first-color" for="color-1"></label>
+            <label class="first-color" for="color-1" style="background-color: ${p.productColor}"></label>
             <input class="color-btn for-color-2" type="radio" id="color-2" name="color-btn" />
-            <label class="color-2" for="color-2"></label>
+            <label class="color-2" for="color-2" style="background-color: ${p.productColor2}"></label>
             <input class="color-btn for-color-3" type="radio" id="color-3" name="color-btn" />
-            <label class="color-3" for="color-3"></label>
+            <label class="color-3" for="color-3" style="background-color: ${p.productColor3}"></label>
         <div class="clearfix"></div>
             <div class="info-wrap">
                 <a class="btn-product-page" onclick="generateLink('Olá, gostaria de adquirir o produto *nome do produto*' +  ' link do produto: https:/www.tiktok.com/@olympikus00/video/7266709578400664837?_r=1&_t=8f0mxNXfnyH')">Comprar Agora</a>

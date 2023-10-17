@@ -10,7 +10,10 @@
             "productPrice": 30,
             "productImg": "https:\/\/i.imgur.com\/MbYo3v0.jpeg",
             "productImg2": "https:\/\/i.imgur.com\/TpPWVPu.jpeg",
-            "productImg3": "https:\/\/i.imgur.com\/8cM92eT.jpeg"
+            "productImg3": "https:\/\/i.imgur.com\/8cM92eT.jpeg",
+            "productColor": "#000000",
+            "productColor2": "#000000",
+            "productColor3": "#000000"
         },
         {
             "productId": 61,
@@ -22,7 +25,10 @@
             "productPrice": "22.90",
             "productImg": "https:\/\/i.imgur.com\/jVGm109.jpeg",
             "productImg2": "https:\/\/i.imgur.com\/Ovb6CWx.jpeg",
-            "productImg3": "https:\/\/i.imgur.com\/LcwzEy6.jpeg"
+            "productImg3": "https:\/\/i.imgur.com\/LcwzEy6.jpeg",
+            "productColor": "#000000",
+            "productColor2": "#000000",
+            "productColor3": "#000000"
         },
         {
             "productId": 62,
@@ -34,7 +40,10 @@
             "productPrice": "50",
             "productImg": "https:\/\/i.imgur.com\/TKQR4Hk.jpeg",
             "productImg2": "https:\/\/i.imgur.com\/N8kd3WU.jpeg",
-            "productImg3": "https:\/\/i.imgur.com\/cxLFN82.jpeg"
+            "productImg3": "https:\/\/i.imgur.com\/cxLFN82.jpeg",
+            "productColor": "#023500",
+            "productColor2": "#000000",
+            "productColor3": "#000000"
         },
         {
             "productId": 67,

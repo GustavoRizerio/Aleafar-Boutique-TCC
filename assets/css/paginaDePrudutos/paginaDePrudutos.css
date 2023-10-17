@@ -105,7 +105,7 @@ label.color-3 {
   transition-delay: 300ms;
 }
 
-.for-color-2:checked~.back-color.chair-2 {
+/* .for-color-2:checked~.back-color.chair-2 {
   backdrop-filter: blur(7px);
   background-image: linear-gradient(196deg, #b4764f7e, #9a58337e);
   opacity: 1;
@@ -115,7 +115,7 @@ label.color-3 {
   backdrop-filter: blur(7px);
   background-image: linear-gradient(196deg, #e2742f7e, #af4c127e);
   opacity: 0;
-}
+} */
 
 .for-color-3:checked~.back-color.chair-3 {
   opacity: 1;
