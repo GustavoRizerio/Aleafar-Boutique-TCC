@@ -1,40 +1,40 @@
 {
-    "produtos": {
-        "1": {
-            "productId": 44,
-            "id_catg": "17",
-            "id_tamanho": "10",
-            "productName": "camiseta",
-            "productDescription": "teste",
-            "productEstoque": "teste",
-            "productPrice": "22.90",
-            "productImg": "teste",
-            "productImg2": "testee",
-            "productImg3": "teste"
-        },
-        "2": {
-            "productId": 46,
-            "id_catg": "17",
-            "id_tamanho": "10",
-            "productName": "teste",
-            "productDescription": "teste",
-            "productEstoque": "teste",
-            "productPrice": "teste",
-            "productImg": "teste",
-            "productImg2": "teste",
-            "productImg3": "teste"
-        },
-        "3": {
-            "productId": 47,
+    "produtos": [
+        {
+            "productId": "60",
             "id_catg": "18",
+            "id_tamanho": "12",
+            "productName": "Cal\u00e7a jeans",
+            "productDescription": "Cal\u00e7as jeans com 3 cores diferentes, tamanho unico",
+            "productEstoque": "10",
+            "productPrice": 30,
+            "productImg": "https:\/\/i.imgur.com\/MbYo3v0.jpeg",
+            "productImg2": "https:\/\/i.imgur.com\/TpPWVPu.jpeg",
+            "productImg3": "https:\/\/i.imgur.com\/8cM92eT.jpeg"
+        },
+        {
+            "productId": 61,
+            "id_catg": "19",
+            "id_tamanho": "12",
+            "productName": "Jaqueta jeans",
+            "productDescription": "Jaqueta jeans preta, tamanho unico",
+            "productEstoque": "2",
+            "productPrice": "22.90",
+            "productImg": "https:\/\/i.imgur.com\/jVGm109.jpeg",
+            "productImg2": "https:\/\/i.imgur.com\/Ovb6CWx.jpeg",
+            "productImg3": "https:\/\/i.imgur.com\/LcwzEy6.jpeg"
+        },
+        {
+            "productId": 62,
+            "id_catg": "21",
             "id_tamanho": "11",
-            "productName": "teste",
-            "productDescription": "teste",
-            "productEstoque": "teste",
-            "productPrice": "teste",
-            "productImg": "teste",
-            "productImg2": "teste",
-            "productImg3": "teste"
+            "productName": "Saia longa",
+            "productDescription": "Saia longa duas cores, tamanho unico",
+            "productEstoque": "6",
+            "productPrice": "50",
+            "productImg": "https:\/\/i.imgur.com\/TKQR4Hk.jpeg",
+            "productImg2": "https:\/\/i.imgur.com\/N8kd3WU.jpeg",
+            "productImg3": "https:\/\/i.imgur.com\/cxLFN82.jpeg"
         }
-    }
+    ]
 }

@@ -1,6 +1,6 @@
-async function loadProducts() {
-    const products = await getProducts()
-    products.forEach(e => {
+async function loadprodutos() {
+    const produtos = await getprodutos()
+    produtos.forEach(e => {
         const stringDoc = `
         <div class="card">
             <div class="container__imagem">
@@ -19,7 +19,7 @@ async function loadProducts() {
             await buyProduct(e)
         })
     })
-    console.log(products);
+    console.log(produtos);
 }
 
 async function buyProduct(p) {
@@ -74,10 +74,10 @@ async function buyProduct(p) {
     })
 }
 
-async function getProducts() {
-    return await fetch('http://localhost:3000/products').then(r => r.json())
+async function getprodutos() {
+    return await fetch('http://localhost:3000/produtos').then(r => r.json())
 }
 
 document.addEventListener('DOMContentLoaded', e => {
-    loadProducts()
+    loadprodutos()
 })
