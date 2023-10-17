@@ -94,6 +94,9 @@ CREATE TABLE `produtos` (
   `img` varchar(255) NOT NULL,
   `img2` varchar(255) NOT NULL,
   `img3` varchar(255) NOT NULL,
+  'cor' VARCHAR(7) NOT NULL
+  'cor2' VARCHAR(7) NOT NULL
+  'cor3' VARCHAR(7) NOT NULL
   `nome_produto` varchar(80) DEFAULT NULL,
   `descricao` varchar(150) DEFAULT NULL,
   `estoque` varchar(5) NOT NULL,

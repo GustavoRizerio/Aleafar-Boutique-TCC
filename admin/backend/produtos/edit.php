@@ -16,6 +16,9 @@ if (!empty($_GET['id'])) {
             $valorvenda = $user_data["valorvenda"];
             $img2 = $user_data["img2"];
             $img3 = $user_data["img3"];
+            $cor = $user_data["cor"];
+            $cor2 = $user_data["cor2"];
+            $cor3 = $user_data["cor3"];
         }
     } else {
         header('Location: ../frontend/produtos/produtos.php');

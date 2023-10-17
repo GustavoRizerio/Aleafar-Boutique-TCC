@@ -35,6 +35,21 @@
             "productImg": "https:\/\/i.imgur.com\/TKQR4Hk.jpeg",
             "productImg2": "https:\/\/i.imgur.com\/N8kd3WU.jpeg",
             "productImg3": "https:\/\/i.imgur.com\/cxLFN82.jpeg"
+        },
+        {
+            "productId": 67,
+            "id_catg": "17",
+            "id_tamanho": "10",
+            "productName": "teste",
+            "productDescription": "roupas maiores",
+            "productEstoque": "2",
+            "productPrice": "2",
+            "productImg": "https:\/\/i.imgur.com\/nrNFfQR.png",
+            "productImg2": "https:\/\/i.imgur.com\/nrNFfQR.png",
+            "productImg3": "https:\/\/i.imgur.com\/nrNFfQR.png",
+            "productColor": "#000000",
+            "productColor2": "#000000",
+            "productColor3": "#000000"
         }
     ]
 }

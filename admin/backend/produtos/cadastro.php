@@ -15,10 +15,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $valorvenda = $_POST["valorvenda"];
     $img2 = $_POST["img2"];
     $img3 = $_POST["img3"];
+    $cor = $_POST['cor'];
+    $cor2 = $_POST['cor2'];
+    $cor3 = $_POST['cor3'];
 
     // Inserção no banco de dados
-    $sqlProdutos = "INSERT INTO produtos (id_catg, id_tamanho, img, nome_produto, descricao, estoque, valorvenda, img2, img3)
-    VALUES ('$idcatg', '$idtamanho', '$img', '$nome_produto', '$descricao', '$estoque', '$valorvenda','$img2', '$img3' )";
+    $sqlProdutos = "INSERT INTO produtos (id_catg, id_tamanho, img, nome_produto, descricao, estoque, valorvenda, img2, img3, cor, cor2, cor3)
+    VALUES ('$idcatg', '$idtamanho', '$img', '$nome_produto', '$descricao', '$estoque', '$valorvenda','$img2', '$img3', '$cor', '$cor2', '$cor3' )";
     
     if ($conexao->query($sqlProdutos) === true) {
         // Adição ao arquivo JSON
@@ -35,7 +38,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             'productPrice' => $valorvenda,
             'productImg' => $img,
             'productImg2' => $img2,
-            'productImg3' => $img3
+            'productImg3' => $img3,
+            'productColor' => $cor,
+            'productColor2' => $cor2,
+            'productColor3' => $cor3
         );
 
         $fileData = json_decode(file_get_contents($jsonFile), true);

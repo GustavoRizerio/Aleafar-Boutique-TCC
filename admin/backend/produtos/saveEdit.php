@@ -11,6 +11,9 @@ if (isset($_POST['update'])) {
     $valorvenda = $_POST["valorvenda"];
     $img2 = $_POST["img2"];
     $img3 = $_POST["img3"];
+    $cor = $_POST["cor"];
+    $cor2 = $_POST["cor2"];
+    $cor3 = $_POST["cor3"];
 
     // Atualizar dados no banco de dados
     $sqlInsert = "UPDATE produtos
@@ -20,7 +23,10 @@ if (isset($_POST['update'])) {
         estoque = '$estoque',
         valorvenda = '$valorvenda',
         img2 = '$img2',
-        img3 = '$img3'
+        img3 = '$img3',
+        cor =  '$cor',
+        cor2 =  '$cor2',
+        cor3 =  '$cor3'
         WHERE id = $id";
     $result = $conexao->query($sqlInsert);
 
@@ -39,6 +45,9 @@ if (isset($_POST['update'])) {
                 $fileData['produtos'][$key]['productImg'] = $img;
                 $fileData['produtos'][$key]['productImg2'] = $img2;
                 $fileData['produtos'][$key]['productImg3'] = $img3;
+                $fileData['produtos'][$key]['productColor'] = $cor;
+                $fileData['produtos'][$key]['productColor2'] = $cor2;
+                $fileData['produtos'][$key]['productColor3'] = $cor3;
 
                 // Adiciona a opção JSON_PRETTY_PRINT para formatar o JSON
                 file_put_contents($jsonFile, json_encode($fileData, JSON_PRETTY_PRINT));

@@ -9,8 +9,7 @@ include_once('../../backend/produtos/edit.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário | GN</title>
-    <link rel="stylesheet" href="../css/cadastro.css">
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="./style.css">
     <style>
         p {
             font-size: 13px;
@@ -37,6 +36,10 @@ include_once('../../backend/produtos/edit.php');
                         <input type="text" name="img2" id="img2" placeholder="Link da imagem" required value=<?php echo $img2; ?>>
                         <p>img3:</p>
                         <input type="text" name="img3" id="img3" placeholder="Link da imagem" required value=<?php echo $img3; ?>>
+                        <p>Cores:</p>
+                        <input type="color" name="cor" id="cor" placeholder="Link da imagem" style="padding: 5px;" required value=<?php echo $cor; ?>>
+                        <input type="color" name="cor2" id="cor2" placeholder="Link da imagem" style="padding: 5px;" required value=<?php echo $cor2; ?>>
+                        <input type="color" name="cor3" id="cor3" placeholder="Link da imagem" style="padding: 5px;" required value=<?php echo $cor3; ?>>
                         <p>descricao:</p>
                         <input type="text" name="descricao" id="descricao" placeholder="Descricao" required value=<?php echo $descricao; ?>>
                         <p>estoque:</p>
@@ -50,7 +53,6 @@ include_once('../../backend/produtos/edit.php');
                         </p>
                     </form>
                 </div>
-                <div class="container__img"><img src="../img/selfie2.jpg" alt="" style="width: 100%;" /></div>
             </div>
         </div>
     </section>

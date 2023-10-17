@@ -6,21 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro | aleafar boutique</title>
-    <link rel="stylesheet" href="../css/cadastro.css">
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <section>
+    <section >
         <div class="container" style="height: 600px; width: 1000px;">
             <div class="usuario container__cadastro" >
-                <div class="container__formulario" >
+                <div class="container__formulario">
                     <form action="../../backend/produtos/cadastro.php" method="POST">
                         <h2>Cadastro Produtos</h2>
                         <input type="text" name="nome_produto" id="nome_produto" placeholder="Nome" required />
                         <input type="text" name="img" id="img" placeholder="Link da imagem" required />
                         <input type="text" name="img2" id="img2" placeholder="Link da imagem" required />
                         <input type="text" name="img3" id="img3" placeholder="Link da imagem" required />
+                        <label for="">Cores:</label>
+                        <input type="color" name="cor" id="cor" placeholder="cor" required style="padding: 5px;"/>
+                        <input type="color" name="cor2" id="cor2" placeholder="cor" required style="padding: 5px;"/>
+                        <input type="color" name="cor3" id="cor3" placeholder="cor" required style="padding: 5px;"/>
                         <input type="text" name="descricao" id="descricao" placeholder="Descricao" required />
                         <input type="text" name="estoque" id="estoque" placeholder="Estoque" required />
                         <input type="text" name="valorvenda" id="valorvenda" placeholder="Valor de venda" required />
@@ -86,7 +89,6 @@
                         </p>
                     </form>
                 </div>
-                <div class="container__img"><img src="../img/selfie.jpg" alt="" style="width: 100%;" /></div>
             </div>
         </div>
     </section>
