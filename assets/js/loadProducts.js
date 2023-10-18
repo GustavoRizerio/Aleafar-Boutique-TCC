@@ -51,7 +51,7 @@ async function buyProduct(p) {
             <label class="color-3" for="color-3" style="background-color: ${p.productColor3}"></label>
         <div class="clearfix"></div>
             <div class="info-wrap">
-                <a class="btn-product-page" onclick="generateLink('Olá, gostaria de adquirir o produto *nome do produto*' +  ' link do produto: https:/www.tiktok.com/@olympikus00/video/7266709578400664837?_r=1&_t=8f0mxNXfnyH')">Comprar Agora</a>
+                <a class="btn-product-page" onclick="generateLink('Olá, gostaria de adquirir o produto: *${p.productName}*' +  ' link do produto: https:/www.tiktok.com/@olympikus00/video/7266709578400664837?_r=1&_t=8f0mxNXfnyH')">Comprar Agora</a>
             </div>
             <div class="img-wrap chair-1" style="background-image: url(${p.productImg})"></div>
             <div class="img-wrap chair-2" style="background-image: url(${p.productImg2})"></div>
