@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/components/instagram/insta.css">
     <link rel="stylesheet" href="../assets/css/produtos/produtos.css">
-    <link rel="stylesheet" href="../assets/css/paginaDeProdutos/paginaDeProdutos.css">
+    <link rel="stylesheet" href="../assets/css/paginaDeProdutos/Produtos.css">
 
     <script src="https://kit.fontawesome.com/5cb800ca59.js" crossorigin="anonymous"></script>
-    <script src="../assets/js/loadProducts.js" defer></script>
+    <script src="../assets/js/Products.js" defer></script>
 </head>
 
 <body>

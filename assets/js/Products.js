@@ -37,7 +37,7 @@ async function buyProduct(p) {
                     <input class="desc-btn" type="radio" id="desc-1" name="desc-btn" checked />
                     <label for="desc-1">Descrição</label>
                     <div class="section-fluid desc-sec accor-1">
-                    <p>${p.productDescription}</p>
+                    <p style='font-size: 15px; font-weight: 800;'>${p.productDescription}</p>
                 </div>
             </div>
             <h5 class="product-page">Escolha uma cor:</h5>
