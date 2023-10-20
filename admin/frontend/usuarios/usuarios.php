@@ -63,10 +63,6 @@
         </button>
     </div>
 
-    <a href="../formulario.php" style="text-align: center; text-decoration: none;">
-        <h4><span class="blue">&lt;</span>Cadastrar Cliente<span class="blue">&gt;</span></h4>
-    </a>
-
     <table class="container">
         <thead>
             <tr>

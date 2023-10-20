@@ -56,7 +56,7 @@ async function buyProduct(p) {
             <div class="img-wrap chair-1" style="background-image: url(${p.productImg})"></div>
             <div class="img-wrap chair-2" style="background-image: url(${p.productImg2})"></div>
             <div class="img-wrap chair-3" style="background-image: url(${p.productImg3})"></div>
-            <div class="back-color"></div>
+            <div class="back-color" style='overflow: hidden; height: 200px'></div>
             <div class="back-color chair-2"></div>
             <div class="back-color chair-3"></div>
         </div>
@@ -81,3 +81,40 @@ async function getprodutos() {
 document.addEventListener('DOMContentLoaded', e => {
     loadprodutos()
 })
+
+// Espera até que o DOM (Document Object Model) esteja completamente carregado
+document.addEventListener('DOMContentLoaded', function () {
+    // Obtém a referência do elemento de entrada de texto de pesquisa
+    const searchInput = document.querySelector('.pesquisa__texto');
+    
+    // Adiciona um ouvinte de eventos para o evento 'input' (digitação) no campo de pesquisa
+    searchInput.addEventListener('input', function () {
+        // Obtém o termo de pesquisa em minúsculas
+        const searchTerm = searchInput.value.toLowerCase();
+
+        // Chama a função para filtrar os produtos com base no termo de pesquisa
+        filterProducts(searchTerm);
+    });
+});
+
+// Função para filtrar produtos com base no termo de pesquisa
+function filterProducts(searchTerm) {
+    // Obtém todos os elementos com a classe 'card' (representando produtos)
+    const produtos = document.querySelectorAll('.card');
+
+    // Itera sobre cada produto
+    produtos.forEach(produto => {
+        // Obtém o nome do produto em minúsculas
+        const productName = produto.querySelector('h3').textContent.toLowerCase();
+
+        // Verifica se o termo de pesquisa está contido no nome do produto
+        if (productName.includes(searchTerm)) {
+            // Se sim, exibe o produto (alterando a propriedade 'display' para 'block')
+            produto.style.display = 'block';
+        } else {
+            // Se não, oculta o produto (alterando a propriedade 'display' para 'none')
+            produto.style.display = 'none';
+        }
+    });
+}
+

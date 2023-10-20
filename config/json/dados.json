@@ -59,6 +59,21 @@
             "productColor": "#000000",
             "productColor2": "#000000",
             "productColor3": "#000000"
+        },
+        {
+            "productId": 68,
+            "id_catg": "19",
+            "id_tamanho": "11",
+            "productName": "Vestido",
+            "productDescription": "vestido longo colado",
+            "productEstoque": "4",
+            "productPrice": "55,30",
+            "productImg": "https:\/\/i.imgur.com\/qGZZwTj.jpeg",
+            "productImg2": "https:\/\/i.imgur.com\/GAPREYV.jpeg",
+            "productImg3": "https:\/\/i.imgur.com\/Q89ZzSt.jpeg",
+            "productColor": "#ff0000",
+            "productColor2": "#4b5272",
+            "productColor3": "#0d0c0c"
         }
     ]
 }
