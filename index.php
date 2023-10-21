@@ -27,6 +27,9 @@
 
     <!-- icons -->
     <script src="https://kit.fontawesome.com/5cb800ca59.js" crossorigin="anonymous"></script>
+    
+
+    <script src="./assets/js/destaques.js" defer></script>
 
     <title>Aleafar Boutique</title>
 </head>
@@ -106,82 +109,8 @@
         <section class="secao__destaques">
             <h1 class="destaque__titulo">Destaques</h1>
             <!-- carrossel -->
-            <section class="container__destaque">
-                <div class="destaque__slide">
-                    <div class="destaque__slide-img">
-                        <img id="slide-1" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        <img id="slide-2" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        <img id="slide-3" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                    </div>
-                    <div class="destaque__slide-icons">
-                        <a href="#slide-1" class="circle__color"><i class="fa-solid fa-circle"
-                                style="color: #000000"></i></a>
-                        <a href="#slide-2" class="circle__color"><i class="fa-solid fa-circle"
-                                style="color: #ff45d1"></i></a>
-                        <a href="#slide-3" class="circle__color"><i class="fa-solid fa-circle"
-                                style="color: #ff0f0f"></i></a>
-                    </div>
-                </div>
-                <div class="destaque__slide">
-                    <div class="destaque__slide-img">
-                        <img id="slide-4" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        <img id="slide-5" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        <img id="slide-6" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                    </div>
-                    <div class="destaque__slide-icons">
-                        <a href="#slide-4"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                        <a href="#slide-5"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                        <a href="#slide-6"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                    </div>
-                </div>
-                <div class="destaque__slide">
-                    <div class="destaque__slide-img">
-                        <img id="slide-7" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        <img id="slide-8" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        <img id="slide-9" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                    </div>
-                    <div class="destaque__slide-icons">
-                        <a href="#slide-7"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                        <a href="#slide-8"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                        <a href="#slide-9"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                    </div>
-                </div>
-                <div class="destaque__slide">
-                    <div class="destaque__slide-img">
-                        <img id="slide-10" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        <img id="slide-11" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        <img id="slide-12" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                    </div>
-                    <div class="destaque__slide-icons">
-                        <a href="#slide-10"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                        <a href="#slide-11"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                        <a href="#slide-12"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                    </div>
-                </div>
-                <div class="destaque__slide">
-                    <div class="destaque__slide-img">
-                        <img id="slide-13" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        <img id="slide-14" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        <img id="slide-15" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                    </div>
-                    <div class="destaque__slide-icons">
-                        <a href="#slide-13"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                        <a href="#slide-14"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                        <a href="#slide-15"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                    </div>
-                </div>
-                <div class="destaque__slide">
-                    <div class="destaque__slide-img">
-                        <img id="slide-16" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        <img id="slide-17" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        <img id="slide-18" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                    </div>
-                    <div class="destaque__slide-icons">
-                        <a href="#slide-16"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                        <a href="#slide-17"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                        <a href="#slide-18"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                    </div>
-                </div>
+            <section class="container__destaque" id="destaquesContainer">
+            
             </section>
             <div class="botao__destaque-container">
                 <a href="./pages/produtos.php" class="destaque__botao">Ver todos os produtos</a>

@@ -74,14 +74,6 @@ async function buyProduct(p) {
     })
 }
 
-async function getprodutos() {
-    return await fetch('http://localhost:3000/produtos').then(r => r.json())
-}
-
-document.addEventListener('DOMContentLoaded', e => {
-    loadprodutos()
-})
-
 // Espera até que o DOM (Document Object Model) esteja completamente carregado
 document.addEventListener('DOMContentLoaded', function () {
     // Obtém a referência do elemento de entrada de texto de pesquisa
@@ -101,12 +93,12 @@ document.addEventListener('DOMContentLoaded', function () {
 function filterProducts(searchTerm) {
     // Obtém todos os elementos com a classe 'card' (representando produtos)
     const produtos = document.querySelectorAll('.card');
-
+    
     // Itera sobre cada produto
     produtos.forEach(produto => {
         // Obtém o nome do produto em minúsculas
         const productName = produto.querySelector('h3').textContent.toLowerCase();
-
+        
         // Verifica se o termo de pesquisa está contido no nome do produto
         if (productName.includes(searchTerm)) {
             // Se sim, exibe o produto (alterando a propriedade 'display' para 'block')
@@ -118,3 +110,10 @@ function filterProducts(searchTerm) {
     });
 }
 
+async function getprodutos() {
+    return await fetch('http://localhost:3000/produtos').then(r => r.json())
+}
+
+document.addEventListener('DOMContentLoaded', e => {
+    loadprodutos()
+})
