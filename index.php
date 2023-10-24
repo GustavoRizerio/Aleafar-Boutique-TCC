@@ -35,8 +35,7 @@
 </head>
 
 <body>
-    <button id="back-to-top-btn"
-        onclick="generateLink('Olá, gostaria de adquirir o produto *nome do produto*' +  ' link do produto: https:/www.tiktok.com/@olympikus00/video/7266709578400664837?_r=1&_t=8f0mxNXfnyH')"></button>
+    <button id="back-to-top-btn"></button>
     <!-- Cabecalho -->
     <header class="cabecalho">
         <section class="cabecalho__secao">
