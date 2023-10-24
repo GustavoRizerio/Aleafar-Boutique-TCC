@@ -4,7 +4,7 @@ async function loadprodutos() {
         const stringDoc = `
         <div class="card">
             <div class="container__imagem">
-                <img src=${e.productImg} class="imagem__teste">
+                <img src=${e.productImg} class="imagem__teste" style="height: 300px;">
             </div>
             <div class="container__informacoes">
                 <h3>${e.productName}</h3>
@@ -65,13 +65,34 @@ async function buyProduct(p) {
 
     const range = document.createRange().createContextualFragment(stringDoc)
     console.log(range);
-    const rangeContainer = document.createElement('span')
-    rangeContainer.appendChild(range)
-    document.querySelector('.product__Container').appendChild(rangeContainer)
+    const rangeContainer = document.createElement('span');
+    rangeContainer.classList.add('product-visible');
+    rangeContainer.appendChild(range);
+    document.querySelector('.product__Container').appendChild(rangeContainer);
+
+    hideElements();
 
     document.querySelector('#closeProduct').addEventListener('click', () => {
-        document.querySelector('.product__Container').removeChild(rangeContainer)
-    })
+        document.querySelector('.product__Container').removeChild(rangeContainer);
+        // Mostra novamente os elementos quando o produto é fechado
+        showElements();
+    });
+
+    
+}
+
+function hideElements() {
+    const elementsToHide = document.querySelectorAll('.hide-on-product');
+    elementsToHide.forEach(element => {
+        element.style.display = 'none';
+    });
+}
+
+function showElements() {
+    const elementsToShow = document.querySelectorAll('.hide-on-product');
+    elementsToShow.forEach(element => {
+        element.style.display = ''; // Restaura o estilo original
+    });
 }
 
 // Espera até que o DOM (Document Object Model) esteja completamente carregado

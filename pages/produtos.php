@@ -19,12 +19,20 @@
 
     <script src="https://kit.fontawesome.com/5cb800ca59.js" crossorigin="anonymous"></script>
     <script src="../assets/js/Products.js" defer></script>
+
+    <style>
+        .product-visible .pesquisa__barra,
+        .product-visible .produtos__titulo,
+        .product-visible .cabecalho {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
     <button id="back-to-top-btn"></button>
     <!-- Cabecalho -->
-    <header class="cabecalho">
+    <header class="cabecalho hide-on-product">
         <section class="cabecalho__secao">
             <figure class="secao__figure">
                 <img src="../assets/img/LogoTcc.png" alt="" class="secao__img">
@@ -54,7 +62,7 @@
     </header>
     <!-- Fim do cabecalho -->
 
-    <div class="pesquisa__barra">
+    <div class="pesquisa__barra hide-on-product">
         <div class="pesquisa">
             <form class="pesquisa__form">
                 <input type="text" class="pesquisa__texto" placeholder="Pesquisar">
@@ -65,25 +73,25 @@
         </div>
     </div>
 
-    <h1 class="produtos__titulo">Produtos</h1>
+    <h1 class="produtos__titulo hide-on-product">Produtos</h1>
 
-    <div class="produtos__container" id="produtosContainer" style='overflow: hidden;'>
-     <!-- conteudo da pagina de produtos gerado por javascript -->
+    <div class="produtos__container hide-on-product" id="produtosContainer" style='overflow: hidden;'>
+        <!-- conteudo da pagina de produtos gerado por javascript -->
     </div>
 
     <!-- Insta -->
 
     <?php
-        include_once '../includes/insta.php'
-    ?>
+    include_once '../includes/insta.php'
+        ?>
 
     <!-- Fim do insta -->
 
     <!-- Rodape -->
 
-    <?php
+        <?php
         include_once '../includes/footer.php'
-    ?>
+            ?>
 
     <!-- Fim do rodape -->
     <span class="product__Container"></span>

@@ -98,11 +98,6 @@
     max-height: 350px;
 }
 
-.card:hover .container__imagem img {
-    max-width: 75%;
-    height: 280px;
-}
-
 .card .container__informacoes {
     position: relative;
     display: flex;
@@ -130,6 +125,7 @@
 }
 
 .card .container__informacoes .comprar {
+    cursor: pointer;
     position: relative;
     top: 200px;
     padding: 10px 30px;
