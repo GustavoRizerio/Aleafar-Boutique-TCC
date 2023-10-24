@@ -10,8 +10,8 @@ async function loaddestaques() {
 
         const stringDoc = `
             <div class="destaque__slide">
-                <div class="destaque__slide-img">
-                    <img id="${img1Id}" src="${e.productImg}" alt="" />
+                <div class="destaque__slide-img" style="height: 350px;">
+                    <img id="${img1Id}" src="${e.productImg}" alt=""/>
                     <img id="${img2Id}" src="${e.productImg2}" alt="" />
                     <img id="${img3Id}" src="${e.productImg3}" alt="" />
                 </div>  

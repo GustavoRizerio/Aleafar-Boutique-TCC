@@ -80,15 +80,16 @@
     </div>
 
     <!-- Insta -->
-
-    <?php
-    include_once '../includes/insta.php'
-        ?>
+    <div class="hide-on-product">
+        <?php
+        include_once '../includes/insta.php'
+            ?>
+    </div>
 
     <!-- Fim do insta -->
 
     <!-- Rodape -->
-
+        
         <?php
         include_once '../includes/footer.php'
             ?>
