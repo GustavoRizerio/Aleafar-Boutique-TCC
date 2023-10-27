@@ -52,7 +52,7 @@
         </section>
     </header>
 
-    <h1 style="margin-top: 30px;"><span class="blue">&lt;</span>Categoria<span class="blue">&gt;</span></h1>
+    <h1 style="margin-top: 30px;"><span class="blue">&lt;</span>Contato<span class="blue">&gt;</span></h1>
 
     <div class="box-search">
         <input type="search" class="form-control w-25" placeholder="Pesquisar" id="pesquisar" >

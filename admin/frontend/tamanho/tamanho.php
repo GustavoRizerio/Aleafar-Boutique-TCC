@@ -51,7 +51,7 @@
         </section>
     </header>
 
-    <h1 style="margin-top: 30px;"><span class="blue">&lt;</span>Subcategoria<span class="blue">&gt;</span></h1>
+    <h1 style="margin-top: 30px;"><span class="blue">&lt;</span>Tamanho<span class="blue">&gt;</span></h1>
 
     <div class="box-search">
         <input type="search" class="form-control w-25" placeholder="Pesquisar" id="pesquisar">
