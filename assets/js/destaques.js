@@ -33,14 +33,6 @@ async function loaddestaques() {
     initCarousel(destaquesContainer);
 }
 
-function initCarousel(container) {
-    // Lógica de inicialização do carrossel aqui
-    // Por exemplo, se estiver usando Slick:
-    $(container).slick({
-        // Configurações do Slick aqui
-    });
-}
-
 async function getdestaques() {
     return await fetch('http://localhost:3000/produtos').then(r => r.json());
 }

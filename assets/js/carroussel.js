@@ -1,12 +1,13 @@
+let productContainers = document.querySelectorAll(".carroussel-container");
+const nxtBtn = document.querySelectorAll(".nxt-seta");
+const preBtn = document.querySelectorAll(".pre-seta");
+
 productContainers.forEach((item, i) => {
   let containerDimensions = item.getBoundingClientRect();
   let containerWidth = containerDimensions.width;
   let scrollPosition = 0;
 
-  nxtBtn[i].addEventListener("click", (event) => {
-    event.preventDefault();
-    console.log("Next button clicked");
-    
+  nxtBtn[i].addEventListener("click", () => {
     scrollPosition += containerWidth;
     if (scrollPosition >= item.scrollWidth) {
       scrollPosition = 0;
@@ -17,10 +18,7 @@ productContainers.forEach((item, i) => {
     });
   });
 
-  preBtn[i].addEventListener("click", (event) => {
-    event.preventDefault();
-    console.log("Previous button clicked");
-    
+  preBtn[i].addEventListener("click", () => {
     scrollPosition -= containerWidth;
     if (scrollPosition < 0) {
       scrollPosition = item.scrollWidth - containerWidth;

@@ -221,6 +221,42 @@
                             <a href="#slide-33"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
                         </div>
                     </div>
+                    <div class="destaque__slide">
+                        <div class="destaque__slide-img">
+                            <img id="slide-31" src="https://i.imgur.com/jDXt5p6.png" alt="" />
+                            <img id="slide-32" src="https://i.imgur.com/jDXt5p6.png" alt="" />
+                            <img id="slide-33" src="https://i.imgur.com/jDXt5p6.png" alt="" />
+                        </div>
+                        <div class="destaque__slide-icons">
+                            <a href="#slide-31"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
+                            <a href="#slide-32"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
+                            <a href="#slide-33"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
+                        </div>
+                    </div>
+                    <div class="destaque__slide">
+                        <div class="destaque__slide-img">
+                            <img id="slide-31" src="https://i.imgur.com/jDXt5p6.png" alt="" />
+                            <img id="slide-32" src="https://i.imgur.com/jDXt5p6.png" alt="" />
+                            <img id="slide-33" src="https://i.imgur.com/jDXt5p6.png" alt="" />
+                        </div>
+                        <div class="destaque__slide-icons">
+                            <a href="#slide-31"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
+                            <a href="#slide-32"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
+                            <a href="#slide-33"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
+                        </div>
+                    </div>
+                    <div class="destaque__slide">
+                        <div class="destaque__slide-img">
+                            <img id="slide-31" src="https://i.imgur.com/jDXt5p6.png" alt="" />
+                            <img id="slide-32" src="https://i.imgur.com/jDXt5p6.png" alt="" />
+                            <img id="slide-33" src="https://i.imgur.com/jDXt5p6.png" alt="" />
+                        </div>
+                        <div class="destaque__slide-icons">
+                            <a href="#slide-31"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
+                            <a href="#slide-32"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
+                            <a href="#slide-33"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- Fim do carrousel -->
@@ -263,9 +299,6 @@
     <!-- Js da pagina -->
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/carroussel.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    <!-- Teste -->
-    <script src="tests/carrousselTest.js"></script>
 </body>
 </html>
