@@ -233,13 +233,13 @@
         <h2 class="feedback__titulo">Feedbacks</h2>
         <div class="images__container">
             <figure class="feedback__container-figure">
-                <img src="assets/img/feedback.jpg" alt="feedback cliente satisfeito" class="feedback__figure-img">
+                <img src="https://i.imgur.com/tnwx1hT.jpg" alt="feedback cliente satisfeito" class="feedback__figure-img">
             </figure>
             <figure class="feedback__container-figure">
-                <img src="assets/img/feedback.jpg" alt="feedback cliente satisfeito" class="feedback__figure-img">
+                <img src="https://i.imgur.com/sJbvK8a.jpg" alt="feedback cliente satisfeito" class="feedback__figure-img">
             </figure>
             <figure class="feedback__container-figure">
-                <img src="assets/img/feedback.jpg" alt="feedback cliente satisfeito" class="feedback__figure-img">
+                <img src="https://i.imgur.com/8f6AEqL.jpg" alt="feedback cliente satisfeito" class="feedback__figure-img">
             </figure>
         </div>
         
@@ -263,6 +263,7 @@
     <!-- Js da pagina -->
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/carroussel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <!-- Teste -->
     <script src="tests/carrousselTest.js"></script>

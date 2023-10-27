@@ -95,7 +95,7 @@
                 </li>
             </ol>
         </div>
-        <p class="duvida__contato">Alguma dúvida? entre em contato conosco! <br> <a href="./contato.html">Página de
+        <p class="duvida__contato">Alguma dúvida? entre em contato conosco! <br> <a href="./contato.php">Página de
                 contato</a></p>
     </section>
     <!-- Fim das informações -->
