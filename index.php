@@ -112,7 +112,7 @@
             
             </section>
             <div class="botao__destaque-container">
-                <a href="./pages/produtos.php" class="destaque__botao">Ver todos os produtos</a>
+                <a href="./pages/produtos.php" class="destaque__botao" >Ver todos os produtos</a>
             </div>
         </section>
         <!-- Fim dos destaques -->
