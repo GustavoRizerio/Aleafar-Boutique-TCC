@@ -29,23 +29,23 @@ include_once('../../backend/produtos/edit.php');
                     <form action="../../backend/produtos/saveEdit.php" method="POST">
                         <h2>Editar produtos</h2>
                         <p>Nome:</p>
-                        <input type="text" name="nome_produto" id="nome_produto" placeholder="Nome" required value=<?php echo $nome_produto; ?> />
+                        <input type="text" name="nome_produto" id="nome_produto" placeholder="Nome" required value="<?php echo $nome_produto; ?>" />
                         <p>img:</p>
-                        <input type="text" name="img" id="img" placeholder="Link da imagem" required value=<?php echo $img; ?>>
+                        <input type="text" name="img" id="img" placeholder="Link da imagem" required value="<?php echo $img; ?>">
                         <p>img2:</p>
-                        <input type="text" name="img2" id="img2" placeholder="Link da imagem" required value=<?php echo $img2; ?>>
+                        <input type="text" name="img2" id="img2" placeholder="Link da imagem" required value="<?php echo $img2; ?>">
                         <p>img3:</p>
-                        <input type="text" name="img3" id="img3" placeholder="Link da imagem" required value=<?php echo $img3; ?>>
+                        <input type="text" name="img3" id="img3" placeholder="Link da imagem" required value="<?php echo $img3; ?>">
                         <p>Cores:</p>
-                        <input type="color" name="cor" id="cor" placeholder="Link da imagem" style="padding: 5px;" required value=<?php echo $cor; ?>>
-                        <input type="color" name="cor2" id="cor2" placeholder="Link da imagem" style="padding: 5px;" required value=<?php echo $cor2; ?>>
-                        <input type="color" name="cor3" id="cor3" placeholder="Link da imagem" style="padding: 5px;" required value=<?php echo $cor3; ?>>
+                        <input type="color" name="cor" id="cor" placeholder="Link da imagem" style="padding: 5px;" required value="<?php echo $cor; ?>">
+                        <input type="color" name="cor2" id="cor2" placeholder="Link da imagem" style="padding: 5px;" required value="<?php echo $cor2; ?>">
+                        <input type="color" name="cor3" id="cor3" placeholder="Link da imagem" style="padding: 5px;" required value="<?php echo $cor3; ?>">
                         <p>descricao:</p>
-                        <input type="text" name="descricao" id="descricao" placeholder="Descricao" required value=<?php echo $descricao; ?>>
+                        <input type="text" name="descricao" id="descricao" placeholder="Descricao" required value="<?php echo $descricao; ?>">
                         <p>estoque:</p>
-                        <input type="text" name="estoque" id="estoque" placeholder="Estoque" required value=<?php echo $estoque; ?>>
+                        <input type="text" name="estoque" id="estoque" placeholder="Estoque" required value="<?php echo $estoque; ?>">
                         <p>valor de venda:</p>
-                        <input type="text" name="valorvenda" id="valorvenda" placeholder="Valor de venda" required value=<?php echo $valorvenda; ?>>
+                        <input type="text" name="valorvenda" id="valorvenda" placeholder="Valor de venda" required value="<?php echo $valorvenda; ?>">
                         <input type="hidden" name="id" value=<?php echo $id; ?>>
                         <input type="submit" name="update" id="submit" class="inputBotao" value="Atualizar">
                         <p class="conta__botao">

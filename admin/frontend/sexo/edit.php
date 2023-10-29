@@ -30,7 +30,7 @@ include_once('../../backend/sexo/edit.php');
                     <form action="../../backend/sexo/saveEdit.php" method="POST">
                         <h2>editar sexo</h2>
                         <p>Sexo:</p>
-                        <input type="text" name="sexo" id="sexo" placeholder="Sexo" required value=<?php echo $sexo; ?>>
+                        <input type="text" name="sexo" id="sexo" placeholder="Sexo" required value="<?php echo $sexo; ?>">
 
                         <input type="hidden" name="id" value=<?php echo $id; ?>>
                         <input type="submit" name="update" id="submit" class="inputBotao" value="Atualizar">

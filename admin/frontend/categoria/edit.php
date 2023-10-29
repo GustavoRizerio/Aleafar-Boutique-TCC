@@ -30,7 +30,7 @@ include_once('../../backend/categoria/edit.php');
                     <form action="../../backend/categoria/saveEdit.php" method="POST">
                         <h2>editar categoria</h2>
                         <p>Nome:</p>
-                        <input type="text" name="nome" id="nome" placeholder="Nome" required value=<?php echo $nome; ?>>
+                        <input type="text" name="nome" id="nome" placeholder="Nome" required value="<?php echo $nome; ?>">
                         <input type="hidden" name="id" value=<?php echo $id; ?>>
                         <input type="submit" name="update" id="submit" class="inputBotao" value="Atualizar">
                         <p class="conta__botao">

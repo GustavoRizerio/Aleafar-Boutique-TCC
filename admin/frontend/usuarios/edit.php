@@ -45,14 +45,14 @@
                     <form action="../backend/saveEdit.php" method="POST">
                         <h2>editar usuario</h2>
                         <p>Nome completo:</p>
-                        <input type="text" name="nome" id="nome" placeholder="Nome" required value=<?php echo $nome; ?>>
+                        <input type="text" name="nome" id="nome" placeholder="Nome" required value="<?php echo $nome; ?>">
 
                         <p>Email:</p>
-                        <input type="text" name="email" id="email" placeholder="Email" required value=<?php echo $email; ?>>
+                        <input type="text" name="email" id="email" placeholder="Email" required value="<?php echo $email; ?>">
 
                         <p>Telefone:</p>
                         <input type="tel" name="fone" id="fone" placeholder="Telefone" required
-                            oninput="limitaTelefone()" maxlength="11" value=<?php echo $fone; ?>>
+                            oninput="limitaTelefone()" maxlength="11" value="<?php echo $fone; ?>">
 
                         <p>Senha:</p>
                         <input type="text" name="senha" id="senha" placeholder="Senha" required

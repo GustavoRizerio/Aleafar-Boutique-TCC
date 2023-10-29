@@ -33,7 +33,7 @@ include_once('../../backend/subcategoria/edit.php');
                         <input type="text" name="nome_subcatg" id="nome_subcatgnome" placeholder="Nome" required value=<?php echo $nome_subcatg; ?>>
 
                         <p>descricao:</p>
-                        <input type="text" name="descricao" id="descricao" placeholder="descricao" required value=<?php echo $descricao; ?>>
+                        <input type="text" name="descricao" id="descricao" placeholder="descricao" required value="<?php echo $descricao; ?>">
 
                         <input type="hidden" name="id" value=<?php echo $id; ?>>
                         <input type="submit" name="update" id="submit" class="inputBotao" value="Atualizar">
