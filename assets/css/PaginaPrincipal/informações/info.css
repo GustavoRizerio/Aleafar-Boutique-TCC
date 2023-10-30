@@ -31,16 +31,17 @@ body{
     display: flex;
     align-items: baseline;
     justify-content: center;
+    margin-left: 3rem;
 }
 
 .secao__container-paragrafo, .imagem__link-moda{
-    font-weight: bold;    
+    font-weight: bold;
     text-transform: uppercase;
     text-align: center;
 }
 
 i{
-    padding-right: 0.625rem;
+    padding-right: 0.500rem;
 }
 
 
