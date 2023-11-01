@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/components/rodape/rodape.css">
+    <link rel="stylesheet" href="../assets/css/paginaPrincipal/informações/info.css">
 
 </head>
 
