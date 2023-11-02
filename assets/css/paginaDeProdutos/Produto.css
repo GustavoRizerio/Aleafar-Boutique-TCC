@@ -227,6 +227,7 @@ h5.product-page {
   content: "";
 }
 
+
 @media screen and (max-width: 991px) {
   .section-product-page {
     display: flex;
