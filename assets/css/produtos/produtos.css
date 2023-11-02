@@ -244,6 +244,18 @@ body.blur-background {
     margin-top: 20px;
 }
 
+.blur-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(196deg, #efd2d76f, #efd2d72a); /* Cor de fundo com opacidade */
+    backdrop-filter: blur(5px); /* Efeito de desfoque */
+    z-index: 1000; /* Certifique-se de que este valor seja maior do que o z-index do pop-up */
+}
+
 @media only screen and (min-width : 150px) and (max-width : 600px) {
     .pesquisa {
         width: 198px;

@@ -31,6 +31,9 @@
 </head>
 
 <body>
+
+<div class="blur-overlay" id="blurOverlay"></div>
+
     <button id="back-to-top-btn"></button>
     <!-- Cabecalho -->
     <header class="cabecalho hide-on-product">

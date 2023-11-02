@@ -2,39 +2,11 @@ let carrinho = [];
 
 document.getElementById('showCartBtn').addEventListener('click', showCartPopup);
 
-async function loadAndDisplayProducts() {
-    await loadprodutos();
-    updateCartItemCount();
-}
-
-function updateCartItemCount() {
-    const cartItemCount = document.getElementById('cartItemCount');
-    cartItemCount.textContent = carrinho.length;
-
-    // Salva a quantidade de itens no carrinho no localStorage
-    localStorage.setItem('carrinho', JSON.stringify(carrinho));
-}
-
-// Quando a página é carregada, recupera o carrinho e o número de itens do localStorage
 document.addEventListener('DOMContentLoaded', () => {
     carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
     updateCartItemCount();
 });
 
-function addToCart(product) {
-    carrinho.push(product);
-    console.log("Produto adicionado ao carrinho:", product);
-
-    updateCartItemCount();
-
-    // Se o pop-up estiver aberto, atualize o pop-up após adicionar o produto
-    if (document.getElementById('cartPopup').style.display === 'block') {
-        showCartPopup();
-    }
-}
-
-// Adiciona um evento para salvar periodicamente o carrinho e o número de itens
-let saveInterval;
 document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'hidden') {
         // Pausa qualquer intervalo de salvamento existente
@@ -50,19 +22,40 @@ document.addEventListener('visibilitychange', () => {
     }
 });
 
-// Adiciona um evento para salvar os dados quando a página for fechada
-window.addEventListener('beforeunload', () => {
-    localStorage.setItem('carrinho', JSON.stringify(carrinho));
+document.getElementById('showCartBtn').addEventListener('click', () => {
+    if (!isCartPopupOpen) {
+        // Se o pop-up estiver fechado, mostra o pop-up
+        showCartPopup();
+    } else {
+        // Se o pop-up estiver aberto, apenas atualiza o número de itens
+        const cartItemCount = document.getElementById('cartItemCount');
+        cartItemCount.textContent = carrinho.length;
+    }
 });
 
-// Adiciona um evento para salvar os dados quando a página for fechada
-window.addEventListener('beforeunload', () => {
+document.getElementById('showCartBtn').addEventListener('click', showCart);
+
+document.getElementById('buyAllBtn').addEventListener('click', buyAll);
+
+async function loadAndDisplayProducts() {
+    await loadprodutos();
+    updateCartItemCount();
+}
+
+function updateCartItemCount() {
+    const cartItemCount = document.getElementById('cartItemCount');
+    cartItemCount.textContent = carrinho.length;
+
+    // Salva a quantidade de itens no carrinho no localStorage
     localStorage.setItem('carrinho', JSON.stringify(carrinho));
-});
+}
 
 function showCartPopup() {
     const cartPopup = document.getElementById('cartPopup');
     const cartItemCount = document.getElementById('cartItemCount');
+    const blurOverlay = document.getElementById('blurOverlay');
+
+    blurOverlay.style.display = 'block';
 
     cartItemCount.textContent = carrinho.length;
 
@@ -112,6 +105,7 @@ function showCartPopup() {
     closeBtn.classList.add('close-btn');
     closeBtn.addEventListener('click', () => {
         cartPopup.style.display = 'none';
+        blurOverlay.style.display = 'none';
     });
     cartPopup.appendChild(closeBtn);
 
@@ -121,16 +115,17 @@ function showCartPopup() {
     cartPopup.style.display = 'block';
 }
 
-document.getElementById('showCartBtn').addEventListener('click', () => {
-    if (!isCartPopupOpen) {
-        // Se o pop-up estiver fechado, mostra o pop-up
+function addToCart(product) {
+    carrinho.push(product);
+    console.log("Produto adicionado ao carrinho:", product);
+
+    updateCartItemCount();
+
+    // Se o pop-up estiver aberto, atualize o pop-up após adicionar o produto
+    if (document.getElementById('cartPopup').style.display === 'block') {
         showCartPopup();
-    } else {
-        // Se o pop-up estiver aberto, apenas atualiza o número de itens
-        const cartItemCount = document.getElementById('cartItemCount');
-        cartItemCount.textContent = carrinho.length;
     }
-});
+}
 
 
 function removeProductFromCart(product) {
@@ -142,15 +137,10 @@ function removeProductFromCart(product) {
     }
 }
 
-document.getElementById('showCartBtn').addEventListener('click', showCart);
-
 
 function showCart() {
     console.log("Produtos no Carrinho:", carrinho);
 }
-
-
-document.getElementById('buyAllBtn').addEventListener('click', buyAll);
 
 function buyAll() {
     if (carrinho.length === 0) {
