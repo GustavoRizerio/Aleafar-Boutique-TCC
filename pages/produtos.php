@@ -26,6 +26,7 @@
         .product-visible .cabecalho {
             display: none;
         }
+
     </style>
 </head>
 
@@ -58,6 +59,10 @@
                 </ul>
                 <i class="fa-solid fa-bars" id="menu__botao" onclick="openMenu()"></i>
             </nav>
+            <button id="showCartBtn" class="hide-on-product">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cartItemCount">0</span>
+            </button>
         </section>
     </header>
     <!-- Fim do cabecalho -->
@@ -77,7 +82,21 @@
 
     <div class="produtos__container hide-on-product" id="produtosContainer" style='overflow: hidden;'>
         <!-- conteudo da pagina de produtos gerado por javascript -->
+        <p class="no-items-message" style="display: none;">Nenhum item encontrado :(</p>
+
     </div>
+
+    <div id="cartPopup" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closePopupBtn">&times;</span>
+            <h2>Carrinho de Compras</h2> <!-- Adiciona o título aqui -->
+            <!-- Restante do conteúdo do pop-up -->
+        </div>
+    </div>
+
+    <button id="buyAllBtn" style="display: none">Comprar Todos</button>
+
+
 
     <!-- Insta -->
     <div class="hide-on-product">
@@ -89,15 +108,17 @@
     <!-- Fim do insta -->
 
     <!-- Rodape -->
-        
-        <?php
-        include_once '../includes/footer.php'
-            ?>
+
+    <?php
+    include_once '../includes/footer.php'
+        ?>
 
     <!-- Fim do rodape -->
     <span class="product__Container"></span>
     <!-- Fim do footer -->
     <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/carrinho.js"></script>
+    <script src="../assets/js/pesquisa.js"></script>
 </body>
 
 </html>

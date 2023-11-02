@@ -1,5 +1,7 @@
+
+
 async function loadprodutos() {
-    const produtos = await getprodutos()
+    const produtos = await getprodutos();
     produtos.forEach(e => {
         const stringDoc = `
         <div class="card">
@@ -10,6 +12,7 @@ async function loadprodutos() {
                 <h3>${e.productName}</h3>
                 <h2 class="preco">R$${e.productPrice}</h2>
                 <a class="comprar" id="buy_${e.productId}">Comprar Agora</a>
+                <i class="fas fa-shopping-cart add-to-cart" id="cart_${e.productId}"></i>
             </div>
         </div>`
 
@@ -18,7 +21,12 @@ async function loadprodutos() {
         document.querySelector(`#buy_${e.productId}`).addEventListener('click', async () => {
             await buyProduct(e)
         })
+        document.querySelector(`#cart_${e.productId}`).addEventListener('click', async () => {
+            addToCart(e);
+        });
     })
+
+
     console.log(produtos);
 }
 
@@ -52,6 +60,7 @@ async function buyProduct(p) {
         <div class="clearfix"></div>
             <div class="info-wrap">
                 <a class="btn-product-page" onclick="generateLink('Olá, gostaria de adquirir o produto: *${p.productName}*' +  ' link do produto: https:/www.tiktok.com/@olympikus00/video/7266709578400664837?_r=1&_t=8f0mxNXfnyH')">Comprar Agora</a>
+                
             </div>
             <div class="img-wrap chair-1" style="background-image: url(${p.productImg})"></div>
             <div class="img-wrap chair-2" style="background-image: url(${p.productImg2})"></div>
@@ -78,57 +87,7 @@ async function buyProduct(p) {
         showElements();
     });
 
-    
-}
 
-function hideElements() {
-    const elementsToHide = document.querySelectorAll('.hide-on-product');
-    elementsToHide.forEach(element => {
-        element.style.display = 'none';
-    });
-}
-
-function showElements() {
-    const elementsToShow = document.querySelectorAll('.hide-on-product');
-    elementsToShow.forEach(element => {
-        element.style.display = ''; // Restaura o estilo original
-    });
-}
-
-// Espera até que o DOM (Document Object Model) esteja completamente carregado
-document.addEventListener('DOMContentLoaded', function () {
-    // Obtém a referência do elemento de entrada de texto de pesquisa
-    const searchInput = document.querySelector('.pesquisa__texto');
-    
-    // Adiciona um ouvinte de eventos para o evento 'input' (digitação) no campo de pesquisa
-    searchInput.addEventListener('input', function () {
-        // Obtém o termo de pesquisa em minúsculas
-        const searchTerm = searchInput.value.toLowerCase();
-
-        // Chama a função para filtrar os produtos com base no termo de pesquisa
-        filterProducts(searchTerm);
-    });
-});
-
-// Função para filtrar produtos com base no termo de pesquisa
-function filterProducts(searchTerm) {
-    // Obtém todos os elementos com a classe 'card' (representando produtos)
-    const produtos = document.querySelectorAll('.card');
-    
-    // Itera sobre cada produto
-    produtos.forEach(produto => {
-        // Obtém o nome do produto em minúsculas
-        const productName = produto.querySelector('h3').textContent.toLowerCase();
-        
-        // Verifica se o termo de pesquisa está contido no nome do produto
-        if (productName.includes(searchTerm)) {
-            // Se sim, exibe o produto (alterando a propriedade 'display' para 'block')
-            produto.style.display = 'block';
-        } else {
-            // Se não, oculta o produto (alterando a propriedade 'display' para 'none')
-            produto.style.display = 'none';
-        }
-    });
 }
 
 async function getprodutos() {

@@ -47,13 +47,4 @@ backToTopButton.addEventListener('click', () => {
     });
 });
 
-//Gerar link Whatsapp
-function generateLink(txt) {
-    const api = "https://api.whatsapp.com/send?"
-    const phone = "+5511977336964"
-    const text = encodeURI(txt)
-    const link = `${api}phone=${phone}&text=${text}`
-    console.log(link)
-    window.open(link)
-}
 
