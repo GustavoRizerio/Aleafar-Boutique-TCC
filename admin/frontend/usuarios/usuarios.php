@@ -10,7 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- bootstrap para o botao -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
 
     <link rel="stylesheet" href="../css/usuarios.css">
     <link rel="stylesheet" href="../css/cabecalhos.css">
@@ -51,14 +53,24 @@
         </section>
     </header>
 
-    <a href="../../home.php"><img src="../img/arrow-back-circle.svg" alt="" class="icon"></a>
+    <a href="../../home.php" onclick="sair()">
+        <i class="fas fa-sign-out-alt icon"></i>
+        Sair
+    </a>
+
+    <a href="../../home.php">
+        <i class="fas fa-times icon"></i>
+        Voltar
+    </a>
     <h1><span class="blue">&lt;</span>Usuarios<span class="blue">&gt;</span></h1>
 
     <div class="box-search">
         <input type="search" class="form-control w-25" placeholder="Pesquisar" id="pesquisar">
         <button onclick="searchData()" class="btn btn-primary">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
             </svg>
         </button>
     </div>
@@ -116,6 +128,21 @@
     </table>
 
     <script src="usuarios.js"></script>
+    <script>
+        // Função chamada ao clicar no botão "Sair"
+        function sair() {
+            // Limpa os dados salvos no localStorage
+            localStorage.removeItem('savedEmail');
+            localStorage.removeItem('savedSenha');
+            // Redireciona para a página de login
+            window.location.href = '../frontend/login.php';
+        }
+        const savedEmail = localStorage.getItem('savedEmail');
+        const savedSenha = localStorage.getItem('savedSenha');
+
+        console.log(savedEmail)
+        console.log(savedSenha)
+    </script>
 </body>
 
 </html>

@@ -27,7 +27,7 @@
 
     <!-- icons -->
     <script src="https://kit.fontawesome.com/5cb800ca59.js" crossorigin="anonymous"></script>
-    
+
 
     <script src="./assets/js/destaques.js" defer></script>
 
@@ -63,13 +63,6 @@
                 </ul>
                 <i class="fa-solid fa-bars" id="menu__botao" onclick="openMenu()"></i>
             </nav>
-            <!-- <div class="secao__contatos">
-                <p class="contatos__login">
-                    <a href="./pages/formulario.php" class="contato__link">
-                        Login ou Cadastro
-                    </a>
-                </p>
-            </div> -->
         </section>
     </header>
     <!-- Fim do cabecalho -->
@@ -109,10 +102,10 @@
             <h1 class="destaque__titulo">Destaques</h1>
             <!-- carrossel -->
             <section class="container__destaque" id="destaquesContainer">
-            
+
             </section>
             <div class="botao__destaque-container">
-                <a href="./pages/produtos.php" class="destaque__botao" >Ver todos os produtos</a>
+                <a href="./pages/produtos.php" class="destaque__botao">Ver todos os produtos</a>
             </div>
         </section>
         <!-- Fim dos destaques -->
@@ -278,12 +271,12 @@
                 <img src="https://i.imgur.com/8f6AEqL.jpg" alt="feedback cliente satisfeito" class="feedback__figure-img">
             </figure>
         </div>
-        
-    <!-- Insta -->
-    <?php
-    include_once './includes/insta.php'
+
+        <!-- Insta -->
+        <?php
+        include_once './includes/insta.php'
         ?>
-    <!-- Fim do insta -->
+        <!-- Fim do insta -->
 
     </article>
     <!-- Fim do feedback -->
@@ -292,7 +285,7 @@
 
     <?php
     include_once './includes/footer.php'
-        ?>
+    ?>
 
     <!-- Fim do rodape -->
 
@@ -301,4 +294,5 @@
     <script src="./assets/js/carroussel.js"></script>
 
 </body>
+
 </html>

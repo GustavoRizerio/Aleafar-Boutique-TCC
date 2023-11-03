@@ -53,13 +53,9 @@
                 </ul>
                 <i class="fa-solid fa-bars" id="menu__botao" onclick="openMenu()"></i>
             </nav>
-           <!--  <div class="secao__contatos">
-                <p class="contatos__login">
-                    <a href="./formulario.php" class="contato__link">
-                        Login ou Cadastro
-                    </a>
-                </p>
-            </div> -->
+            <?php
+        include_once '../includes/carrinho.php'
+            ?>
         </section>
     </header>
     <!-- Fim do cabecalho -->

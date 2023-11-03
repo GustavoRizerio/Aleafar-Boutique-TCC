@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/normalize.css">
-    <link rel="stylesheet" href="../assets/css/components/instagram/insta.css">
 
     <style>
         .insta{

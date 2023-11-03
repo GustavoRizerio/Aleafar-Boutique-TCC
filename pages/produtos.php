@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="../assets/css/components/botaoTopo/botaoTopo.css">
     <link rel="stylesheet" href="../assets/css/components/rodape/rodape.css">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/components/instagram/insta.css">
     <link rel="stylesheet" href="../assets/css/produtos/produtos.css">
     <link rel="stylesheet" href="../assets/css/paginaDeProdutos/Produto.css">
 
@@ -26,13 +25,12 @@
         .product-visible .cabecalho {
             display: none;
         }
-
     </style>
 </head>
 
 <body>
 
-<div class="blur-overlay" id="blurOverlay"></div>
+    <div class="blur-overlay" id="blurOverlay"></div>
 
     <button id="back-to-top-btn"></button>
     <!-- Cabecalho -->
@@ -113,7 +111,7 @@
     <!-- Rodape -->
 
     <?php
-    include_once '../includes/footer.php'
+    include_once '../../Aleafar-Boutique-TCC/includes/footer.php'
         ?>
 
     <!-- Fim do rodape -->
