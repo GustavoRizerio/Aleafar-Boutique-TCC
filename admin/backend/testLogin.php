@@ -7,7 +7,7 @@
         $email = $_POST['email'];
         $senha = $_POST['senha'];
 
-        $sql = "SELECT * FROM cliente WHERE email = '$email' and senha = '$senha'";
+        $sql = "SELECT * FROM funcionario WHERE email = '$email' and senha = '$senha'";
         
 
         $result = $conexao->query($sql);

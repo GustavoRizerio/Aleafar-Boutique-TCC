@@ -24,53 +24,10 @@
                             Não tem uma conta ?
                             <a href="formulario.php">Se cadastre.</a>
                         </p>
-                        <button type="button" onclick="mostrarDadosLocalStorage()">Mostrar Dados Salvos</button>
-                        <button type="button" onclick="sair()">Sair</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 </body>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const emailInput = document.querySelector('input[name="email"]');
-        const senhaInput = document.querySelector('input[name="senha"]');
-
-        // Verifica se há dados salvos no localStorage
-        const savedEmail = localStorage.getItem('savedEmail');
-        const savedSenha = localStorage.getItem('savedSenha');
-
-        if (savedEmail && savedSenha) {
-            emailInput.value = savedEmail;
-            senhaInput.value = savedSenha;
-            // Redireciona para a página principal se houver dados salvos
-            window.location.href = '../frontend/usuarios/usuarios.php';
-        }
-    });
-
-    // Função chamada ao clicar no botão "Mostrar Dados Salvos"
-    function mostrarDadosLocalStorage() {
-        const savedEmail = localStorage.getItem('savedEmail');
-        const savedSenha = localStorage.getItem('savedSenha');
-
-        if (savedEmail && savedSenha) {
-            alert('Email: ' + savedEmail + '\nSenha: ' + savedSenha);
-        } else {
-            alert('Nenhum dado salvo no localStorage.');
-        }
-    }
-    // Função chamada ao enviar o formulário
-    function salvarLocalStorage() {
-        const emailInput = document.querySelector('input[name="email"]');
-        const senhaInput = document.querySelector('input[name="senha"]');
-
-        // Salva os dados no localStorage
-        localStorage.setItem('savedEmail', emailInput.value);
-        localStorage.setItem('savedSenha', senhaInput.value);
-    }
-</script>
-
-
 </html>

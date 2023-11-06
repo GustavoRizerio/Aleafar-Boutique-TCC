@@ -9,7 +9,7 @@
         $fone = $_POST['fone'];
         $senha = $_POST['senha'];
 
-        $sqlUpdate = "UPDATE cliente
+        $sqlUpdate = "UPDATE funcionario
         SET nome='$nome', email='$email', fone='$fone', senha='$senha'
         WHERE id=$id";
 

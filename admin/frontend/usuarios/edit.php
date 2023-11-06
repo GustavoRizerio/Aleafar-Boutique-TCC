@@ -43,7 +43,7 @@
 
                 <div class="container__formulario">
                     <form action="../backend/saveEdit.php" method="POST">
-                        <h2>editar usuario</h2>
+                        <h2>editar funcionario</h2>
                         <p>Nome completo:</p>
                         <input type="text" name="nome" id="nome" placeholder="Nome" required value="<?php echo $nome; ?>">
 

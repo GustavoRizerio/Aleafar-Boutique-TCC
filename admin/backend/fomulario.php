@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $fone = $_POST['fone'];
     $senha = $_POST['senha'];
 
-    $sqlCategoria = "INSERT INTO cliente (id_sexo, nome, email, fone, senha) VALUES ('$idSexo', '$nome','$email','$fone','$senha')";
+    $sqlCategoria = "INSERT INTO funcionario (id_sexo, nome, email, fone, senha) VALUES ('$idSexo', '$nome','$email','$fone','$senha')";
     if ($conexao->query($sqlCategoria) === TRUE) {
         header('Location: ../frontend/login.php');
     } else {

@@ -4,7 +4,7 @@ include_once( __DIR__. '../../../config/config.php');
 
 if (!empty($_GET['id'])) {
     $id = $_GET['id'];
-    $sqlSelect = "SELECT * FROM cliente WHERE id=$id";
+    $sqlSelect = "SELECT * FROM funcionario WHERE id=$id";
     $result = $conexao->query($sqlSelect);
     if ($result->num_rows > 0) {
         while ($user_data = mysqli_fetch_assoc($result)) {

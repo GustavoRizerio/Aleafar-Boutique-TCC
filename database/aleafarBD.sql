@@ -120,6 +120,18 @@ CREATE TABLE `contato` (
   PRIMARY KEY (`id`)
 );
 
+CREATE TABLE `funcionario` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `id_sexo` int(11) NOT NULL,
+  `nome` varchar(70) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `fone` varchar(15) NOT NULL,
+  `senha` varchar(30) NOT NULL,
+  PRIMARY KEY (`ID`) USING BTREE,
+  KEY `fk_sexo` (`id_sexo`),
+  CONSTRAINT `fk_sexo` FOREIGN KEY (`id_sexo`) REFERENCES `sexo` (`id`)
+);
+
 CREATE TABLE `cliente` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
   `id_sexo` int(11) NOT NULL,
