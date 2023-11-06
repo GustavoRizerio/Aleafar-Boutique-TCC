@@ -15,9 +15,8 @@
 
     <link rel="stylesheet" href="../css/usuarios.css">
     <link rel="stylesheet" href="../css/cabecalhos.css">
+    <link rel="stylesheet" href="../css/icons.css">
     <script src="https://kit.fontawesome.com/5cb800ca59.js" crossorigin="anonymous"></script>
-
-
 </head>
 
 <body>
@@ -54,13 +53,11 @@
         </section>
     </header>
 
-    <a href="../../home.php" onclick="sair()">
-        <i class="fas fa-sign-out-alt icon"></i>
+    <a href="../../home.php" onclick="sair()" class="icons">
+        <i class="fas fa-sign-out icon"></i>
     </a>
+    
 
-    <a href="../../home.php">
-        <i class="fas fa-times icon"></i>
-    </a>
     <h1><span class="blue">&lt;</span>Funcionarios<span class="blue">&gt;</span></h1>
 
     <div class="box-search">
