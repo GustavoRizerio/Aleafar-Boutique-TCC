@@ -19,7 +19,6 @@
     <a href="../pages/produtos.php">
     <button id="showCartBtn" class="hide-on-product">
         <i class="fas fa-shopping-cart"></i>
-        <span id="cartItemCount">0</span>
     </button>
     </a>
 

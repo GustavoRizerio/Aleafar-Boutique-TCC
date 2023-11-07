@@ -27,8 +27,6 @@
 
     <!-- icons -->
     <script src="https://kit.fontawesome.com/5cb800ca59.js" crossorigin="anonymous"></script>
-
-
     <script src="./assets/js/destaques.js" defer></script>
 
     <title>Aleafar Boutique</title>
@@ -61,15 +59,20 @@
                     </li>
                     <i class="fa-solid fa-xmark" id="botao__fechar"></i>
                     <div class="secao__contatos">
-            </div>
+                    </div>
                 </ul>
-                <i class="fa-solid fa-bars" id="menu__botao" onclick="openMenu()"></i>               
+                <i class="fa-solid fa-bars" id="menu__botao" onclick="openMenu()"></i>
             </nav>
+            <p class="contatos__login" id="loginCadastroBtn">
+                <a href="./pages/login.php" class="contato__link">
+                    Login ou Cadastro
+                </a>
+            </p>
             <p class="contatos__login">
-                    <a href="./pages/login.php" class="contato__link">
-                        Login ou Cadastro
-                    </a>
-                </p>
+                <a href="#" onclick="logout()" style="display: none;" id="logoutBtn">
+                    Logout
+                </a>
+            </p>
         </section>
     </header>
     <!-- Fim do cabecalho -->
@@ -122,8 +125,8 @@
             <h2 class="promocao__titulo">Promoções</h2>
             <!-- carroussel -->
             <section class="carroussel">
-                <button class="pre-seta"><img src="assets/img/arrow.png" alt=""></button>
-                <button class="nxt-seta"><img src="assets/img/arrow.png" alt=""></button>
+            <button class="pre-seta"><i class="fas fa-arrow-right"></i></button>
+            <button class="nxt-seta"><i class="fas fa-arrow-right"></i></button>
                 <div class="carroussel-container">
                     <div class="destaque__slide">
                         <div class="destaque__slide-img">
@@ -269,20 +272,23 @@
         <h2 class="feedback__titulo">Feedbacks</h2>
         <div class="images__container">
             <figure class="feedback__container-figure">
-                <img src="https://i.imgur.com/tnwx1hT.jpg" alt="feedback cliente satisfeito" class="feedback__figure-img">
+                <img src="https://i.imgur.com/tnwx1hT.jpg" alt="feedback cliente satisfeito"
+                    class="feedback__figure-img">
             </figure>
             <figure class="feedback__container-figure">
-                <img src="https://i.imgur.com/sJbvK8a.jpg" alt="feedback cliente satisfeito" class="feedback__figure-img">
+                <img src="https://i.imgur.com/sJbvK8a.jpg" alt="feedback cliente satisfeito"
+                    class="feedback__figure-img">
             </figure>
             <figure class="feedback__container-figure">
-                <img src="https://i.imgur.com/8f6AEqL.jpg" alt="feedback cliente satisfeito" class="feedback__figure-img">
+                <img src="https://i.imgur.com/8f6AEqL.jpg" alt="feedback cliente satisfeito"
+                    class="feedback__figure-img">
             </figure>
         </div>
 
         <!-- Insta -->
         <?php
         include_once './includes/insta.php'
-        ?>
+            ?>
         <!-- Fim do insta -->
 
     </article>
@@ -292,13 +298,41 @@
 
     <?php
     include_once './includes/footer.php'
-    ?>
+        ?>
 
     <!-- Fim do rodape -->
 
     <!-- Js da pagina -->
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/carroussel.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Verifica se há dados salvos no localStorage
+
+            const savedEmailCliente = localStorage.getItem('savedEmailCliente');
+            const savedSenhaCliente = localStorage.getItem('savedSenhaCliente');
+
+            const loginCadastroBtn = document.getElementById('loginCadastroBtn');
+            const logoutBtn = document.getElementById('logoutBtn');
+
+            console.log(savedEmailCliente);
+            console.log(savedSenhaCliente);
+
+            if (savedEmailCliente && savedSenhaCliente) {
+                // Se o usuário estiver logado, esconde o botão de login/cadastro e mostra o link de logout
+                loginCadastroBtn.style.display = 'none';
+                logoutBtn.style.display = 'inline';
+            }
+        });
+
+        function logout() {
+            // Remove os dados do localStorage
+            localStorage.removeItem('savedEmailCliente');
+            localStorage.removeItem('savedSenhaCliente');
+
+            location.reload();
+        }
+    </script>
 
 </body>
 
