@@ -60,9 +60,16 @@
                         <a href="./pages/perguntas.php" class="navegacao__lista-link">Perguntas Frequentes</a>
                     </li>
                     <i class="fa-solid fa-xmark" id="botao__fechar"></i>
+                    <div class="secao__contatos">
+            </div>
                 </ul>
-                <i class="fa-solid fa-bars" id="menu__botao" onclick="openMenu()"></i>
+                <i class="fa-solid fa-bars" id="menu__botao" onclick="openMenu()"></i>               
             </nav>
+            <p class="contatos__login">
+                    <a href="./pages/login.php" class="contato__link">
+                        Login ou Cadastro
+                    </a>
+                </p>
         </section>
     </header>
     <!-- Fim do cabecalho -->

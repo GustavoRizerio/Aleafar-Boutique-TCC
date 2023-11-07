@@ -45,6 +45,9 @@
                     <li class="navegacao__lista-item">
                         <a href="../contato/contato.php" class="navegacao__lista-link">Contato</a>
                     </li>
+                    <li class="navegacao__lista-item">
+                        <a href="../../home.php" class="navegacao__lista-link" style="color: red;">Sair</a>
+                    </li>
                     <i class="fa-solid fa-xmark" id="botao__fechar"></i>
                 </ul>
                 <i class="fa-solid fa-bars" id="menu__botao" onclick="openMenu()"></i>

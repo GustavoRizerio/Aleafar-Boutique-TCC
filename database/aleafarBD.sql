@@ -111,6 +111,13 @@ CREATE TABLE `login` (
   PRIMARY KEY (`id`)
 );
 
+CREATE TABLE `logincliente` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `email` varchar(50) NOT NULL,
+  `senha` varchar(30) NOT NULL,
+  PRIMARY KEY (`id`)
+);
+
 CREATE TABLE `contato` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nome` varchar(60) DEFAULT NULL,
