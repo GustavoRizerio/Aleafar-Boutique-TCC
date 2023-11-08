@@ -45,16 +45,7 @@
             window.location.href = '../frontend/usuarios/usuarios.php';
         }
     });
-    // Função chamada ao clicar no botão "Mostrar Dados Salvos"
-    function mostrarDadosLocalStorage() {
-        const savedEmail = localStorage.getItem('savedEmail');
-        const savedSenha = localStorage.getItem('savedSenha');
-        if (savedEmail && savedSenha) {
-            alert('Email: ' + savedEmail + '\nSenha: ' + savedSenha);
-        } else {
-            alert('Nenhum dado salvo no localStorage.');
-        }
-    }
+    
     // Função chamada ao enviar o formulário
     function salvarLocalStorage() {
         const emailInput = document.querySelector('input[name="email"]');

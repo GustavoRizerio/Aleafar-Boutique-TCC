@@ -1,3 +1,7 @@
+<?php
+    session_start()
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -15,7 +19,7 @@
 
     <link rel="stylesheet" href="../css/usuarios.css">
     <link rel="stylesheet" href="../css/cabecalhos.css">
-    <link rel="stylesheet" href="../css/icons.css">
+    <link rel="stylesheet" href="../css/botao.css">
     <script src="https://kit.fontawesome.com/5cb800ca59.js" crossorigin="anonymous"></script>
 </head>
 
@@ -54,9 +58,13 @@
     </header>
 
     <a href="../../home.php" onclick="sair()" class="icons">
-        <i class="fas fa-sign-out icon"></i>
+        sair
     </a>
-    
+
+    <a href="../../home.php" class="voltar">
+        Voltar
+    </a>
+
 
     <h1><span class="blue">&lt;</span>Funcionarios<span class="blue">&gt;</span></h1>
 
@@ -137,7 +145,7 @@
             localStorage.removeItem('savedEmail');
             localStorage.removeItem('savedSenha');
             // Redireciona para a página de login
-            window.location.href = '../frontend/login.php';
+            window.location.href = '../login.php';
         }
         const savedEmail = localStorage.getItem('savedEmail');
         const savedSenha = localStorage.getItem('savedSenha');

@@ -1,0 +1,12 @@
+.icons , .voltar{
+    color: #fe6565;
+    margin: 1.25rem;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.icons:hover , .voltar:hover{
+    font-size: 20px;
+    color: #e41414;
+}
+
