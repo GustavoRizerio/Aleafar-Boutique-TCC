@@ -55,7 +55,7 @@
                 <i class="fa-solid fa-bars" id="menu__botao" onclick="openMenu()"></i>
             </nav>
             <?php
-        include_once '../includes/carrinho.php'
+            include_once '../includes/carrinho.php'
             ?>
         </section>
     </header>
@@ -70,7 +70,7 @@
                 <input placeholder="Endereço de email" type="email" name="email" tabindex="2" required>
             </fieldset>
             <fieldset>
-                <input placeholder="Numero de telefone" type="tel" name="telefone" tabindex="3" required>
+                <input placeholder="Número de telefone" type="tel" name="telefone" tabindex="3" required pattern="[0-9]{10,14}" maxlength="14">
             </fieldset>
             <fieldset>
                 <textarea placeholder="Escreva sua mensagem aqui...." class="teste" name="mensagem" tabindex="5" required></textarea>
@@ -80,10 +80,10 @@
             </fieldset>
         </form>
 
-    <?php
-    include_once '../includes/insta.php'
+        <?php
+        include_once '../includes/insta.php'
         ?>
-        
+
     </div>
     <!-- Insta -->
 
@@ -93,7 +93,7 @@
     <!-- Começo footer  -->
     <?php
     include_once '../includes/footer.php'
-        ?>
+    ?>
     <!-- Fim do cabecalho -->
     <script src="../assets/js/script.js"></script>
 </body>

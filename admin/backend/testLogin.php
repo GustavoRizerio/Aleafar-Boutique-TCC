@@ -21,8 +21,6 @@
         else
         {
             //acessa
-            $result = mysqli_query($conexao, "INSERT INTO login(email,senha)
-            VALUES ('$email','$senha')");
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
             header('Location: ../frontend/usuarios/usuarios.php');

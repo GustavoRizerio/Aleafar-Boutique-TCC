@@ -257,10 +257,6 @@ body.blur-background {
 }
 
 @media only screen and (min-width : 150px) and (max-width : 600px) {
-    .pesquisa {
-        width: 198px;
-    }
-
     .pesquisa__barra {
         justify-content: center;
     }
