@@ -122,147 +122,28 @@
 
         <!-- inicio promoções -->
         <section class="promocao__container">
-            <h2 class="promocao__titulo">Promoções</h2>
-            <!-- carroussel -->
-            <section class="carroussel">
-            <button class="pre-seta"><i class="fas fa-arrow-right"></i></button>
-            <button class="nxt-seta"><i class="fas fa-arrow-right"></i></button>
-                <div class="carroussel-container">
-                    <div class="destaque__slide">
-                        <div class="destaque__slide-img">
-                            <img id="slide-19" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-20" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-21" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        </div>
-                        <div class="destaque__slide-icons">
-                            <a href="#slide-19"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                            <a href="#slide-20"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                            <a href="#slide-21"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                        </div>
-                    </div>
-                    <div class="destaque__slide">
-                        <div class="destaque__slide-img">
-                            <img id="slide-22" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-23" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-24" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        </div>
-                        <div class="destaque__slide-icons">
-                            <a href="#slide-22"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                            <a href="#slide-23"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                            <a href="#slide-24"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                        </div>
-                    </div>
-                    <div class="destaque__slide">
-                        <div class="destaque__slide-img">
-                            <img id="slide-25" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-26" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-27" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        </div>
-                        <div class="destaque__slide-icons">
-                            <a href="#slide-25"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                            <a href="#slide-26"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                            <a href="#slide-27"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                        </div>
-                    </div>
-                    <div class="destaque__slide">
-                        <div class="destaque__slide-img">
-                            <img id="slide-28" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-29" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-30" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        </div>
-                        <div class="destaque__slide-icons">
-                            <a href="#slide-28"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                            <a href="#slide-29"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                            <a href="#slide-30"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                        </div>
-                    </div>
-                    <div class="destaque__slide">
-                        <div class="destaque__slide-img">
-                            <img id="slide-31" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-32" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-33" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        </div>
-                        <div class="destaque__slide-icons">
-                            <a href="#slide-31"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                            <a href="#slide-32"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                            <a href="#slide-33"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                        </div>
-                    </div>
-                    <div class="destaque__slide">
-                        <div class="destaque__slide-img">
-                            <img id="slide-31" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-32" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-33" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        </div>
-                        <div class="destaque__slide-icons">
-                            <a href="#slide-31"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                            <a href="#slide-32"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                            <a href="#slide-33"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                        </div>
-                    </div>
-                    <div class="destaque__slide">
-                        <div class="destaque__slide-img">
-                            <img id="slide-31" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-32" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-33" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        </div>
-                        <div class="destaque__slide-icons">
-                            <a href="#slide-31"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                            <a href="#slide-32"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                            <a href="#slide-33"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                        </div>
-                    </div>
-                    <div class="destaque__slide">
-                        <div class="destaque__slide-img">
-                            <img id="slide-31" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-32" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-33" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        </div>
-                        <div class="destaque__slide-icons">
-                            <a href="#slide-31"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                            <a href="#slide-32"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                            <a href="#slide-33"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                        </div>
-                    </div>
-                    <div class="destaque__slide">
-                        <div class="destaque__slide-img">
-                            <img id="slide-31" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-32" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-33" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        </div>
-                        <div class="destaque__slide-icons">
-                            <a href="#slide-31"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                            <a href="#slide-32"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                            <a href="#slide-33"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                        </div>
-                    </div>
-                    <div class="destaque__slide">
-                        <div class="destaque__slide-img">
-                            <img id="slide-31" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-32" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-33" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        </div>
-                        <div class="destaque__slide-icons">
-                            <a href="#slide-31"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                            <a href="#slide-32"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                            <a href="#slide-33"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                        </div>
-                    </div>
-                    <div class="destaque__slide">
-                        <div class="destaque__slide-img">
-                            <img id="slide-31" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-32" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                            <img id="slide-33" src="https://i.imgur.com/jDXt5p6.png" alt="" />
-                        </div>
-                        <div class="destaque__slide-icons">
-                            <a href="#slide-31"><i class="fa-solid fa-circle" style="color: #000000"></i></a>
-                            <a href="#slide-32"><i class="fa-solid fa-circle" style="color: #ff45d1"></i></a>
-                            <a href="#slide-33"><i class="fa-solid fa-circle" style="color: #ff0f0f"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Fim do carrousel -->
+            <h2 class="promocao__titulo">Historia da Marca</h2>
+            <!-- texto -->
+            <p class="promocao__texto">
+                A Aleafar Boutique é o fruto do sonho e da determinação de uma jovem empreendedora que decidiu
+                transformar sua paixão por moda em um negócio próspero. Nascida em setembro de 2022, nossa boutique
+                online é muito mais do que um simples comércio de roupas e acessórios femininos; é o resultado de
+                dedicação, estilo e autenticidade.
+            </p>
+            <p class="promocao__texto">
+                Desde o início, buscamos oferecer às nossas clientes uma experiência única de compra, onde a elegância
+                se encontra com a modernidade. Cada peça cuidadosamente selecionada reflete não apenas as tendências do
+                momento, mas também a essência da mulher contemporânea, forte, decidida e apaixonada pela moda.
+            </p>
+            <p class="promocao__texto">
+                Acreditamos que a moda vai além das roupas; é uma expressão de individualidade e confiança. Na Aleafar
+                Boutique, não apenas vendemos produtos, mas ajudamos cada mulher a contar sua própria história por meio
+                do estilo. Nosso compromisso é proporcionar qualidade, conforto e, acima de tudo, empoderamento.
+
+                Junte-se a nós nessa jornada de moda e autenticidade. Explore nossa coleção e descubra como a Aleafar
+                Boutique está redefinindo o significado de estilo feminino.
+            </p>
+            <!-- Fim do texto -->
         </section>
         <!-- Fim das informações -->
     </main>
