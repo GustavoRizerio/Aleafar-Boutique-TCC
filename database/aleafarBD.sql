@@ -122,20 +122,6 @@ INSERT INTO `produtos` (`ID`, `id_catg`, `id_tamanho`, `img`, `cor`, `nome_produ
 INSERT INTO `produtos` (`ID`, `id_catg`, `id_tamanho`, `img`, `cor`, `nome_produto`, `descricao`, `estoque`, `valorvenda`, `img2`, `img3`, `cor2`, `cor3`) VALUES (19, 13, 4, 'https://i.imgur.com/0UmDD32.jpeg', '#f6e8cb', 'Blazer', 'Um blazer bem estruturado pode ser a base perfeita para um look caprichado básico. Sabe aqueles dias que você quer se arrumar, mas está sem ideia? O b', '7', 45.99, 'https://i.imgur.com/tgWJYdI.jpeg', 'https://i.imgur.com/gCnzneT.jpeg', '#fbffff', '#0f1722');
 
 
-CREATE TABLE `login` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `email` varchar(50) NOT NULL,
-  `senha` varchar(30) NOT NULL,
-  PRIMARY KEY (`id`)
-);
-
-CREATE TABLE `logincliente` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `email` varchar(50) NOT NULL,
-  `senha` varchar(30) NOT NULL,
-  PRIMARY KEY (`id`)
-);
-
 CREATE TABLE `contato` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nome` varchar(60) DEFAULT NULL,
@@ -157,14 +143,13 @@ CREATE TABLE `funcionario` (
   CONSTRAINT `fk_sexo` FOREIGN KEY (`id_sexo`) REFERENCES `sexo` (`id`)
 );
 
-CREATE TABLE `cliente` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `id_sexo` int(11) NOT NULL,
-  `nome` varchar(70) NOT NULL,
-  `email` varchar(50) NOT NULL,
-  `fone` varchar(15) NOT NULL,
-  `senha` varchar(30) NOT NULL,
-  PRIMARY KEY (`ID`) USING BTREE,
-  KEY `fk_sexo` (`id_sexo`),
-  CONSTRAINT `fk_sexo` FOREIGN KEY (`id_sexo`) REFERENCES `sexo` (`id`)
-);
+CREATE TABLE cliente (
+    ID INT(10) NOT NULL AUTO_INCREMENT,
+    id_sexo INT(10) NOT NULL,
+    nome VARCHAR(70) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    fone VARCHAR(15) NOT NULL,
+    senha VARCHAR(30) NOT NULL,
+    PRIMARY KEY (ID) USING BTREE,
+    INDEX fk_sexo (id_sexo) USING BTREE
+)

@@ -61,9 +61,6 @@
         sair
     </a>
 
-    <a href="../../home.php" class="voltar">
-        Voltar
-    </a>
 
 
     <h1><span class="blue">&lt;</span>Funcionarios<span class="blue">&gt;</span></h1>

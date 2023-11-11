@@ -15,7 +15,7 @@
             <div class="usuario container__login">
                 <div class="container__img"><img src="./img/selfie.jpg" alt="" /></div>
                 <div class="container__formulario">
-                    <form action="../backend/testLogin.php" method="POST" onsubmit="salvarLocalStorage()">
+                    <form action="../backend/testLogin.php" method="POST">
                         <h2>Login</h2>
                         <input type="text" name="email" placeholder="Email" class="input__login" required />
                         <input type="password" name="senha" placeholder="Senha" class="input__login" required />
@@ -30,30 +30,5 @@
         </div>
     </section>
 </body>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const emailInput = document.querySelector('input[name="email"]');
-        const senhaInput = document.querySelector('input[name="senha"]');
-        // Verifica se há dados salvos no localStorage
-        const savedEmail = localStorage.getItem('savedEmail');
-        const savedSenha = localStorage.getItem('savedSenha');
-        if (savedEmail && savedSenha) {
-            emailInput.value = savedEmail;
-            senhaInput.value = savedSenha;
-            // Redireciona para a página principal se houver dados salvos
-            window.location.href = '../frontend/usuarios/usuarios.php';
-        }
-    });
-    
-    // Função chamada ao enviar o formulário
-    function salvarLocalStorage() {
-        const emailInput = document.querySelector('input[name="email"]');
-        const senhaInput = document.querySelector('input[name="senha"]');
-        // Salva os dados no localStorage
-        localStorage.setItem('savedEmail', emailInput.value);
-        localStorage.setItem('savedSenha', senhaInput.value);
-    }
-</script>
 
 </html>

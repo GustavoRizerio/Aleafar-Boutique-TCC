@@ -78,7 +78,7 @@
         <h4><span class="blue">&lt;</span>Cadastrar Produtos<span class="blue">&gt;</span></h4>
     </a>
     
-    <table class="container">
+    <table class="container" style="overflow: auto;">
         <thead>
             <tr>
                 <th>

@@ -1,11 +1,11 @@
 <?php
 
 if (!empty($_GET['id'])) {
-    include_once('../../config/config.php');
+    include_once('../../../config/config.php');
 
-    $id_contato = $_GET['id'];
+    $id = $_GET['id'];
 
-    $sqlSelect = "SELECT * FROM contato WHERE id=$id_contato";
+    $sqlSelect = "SELECT * FROM contato WHERE id=$id";
 
     $result = $conexao->query($sqlSelect);
 
@@ -14,7 +14,7 @@ if (!empty($_GET['id'])) {
     }
 
     if ($result->num_rows > 0) {
-        $sqlDelete = "DELETE FROM contato WHERE id=$id_contato";
+        $sqlDelete = "DELETE FROM contato WHERE id=$id";
         $resultDelete = $conexao->query($sqlDelete);
 
         if (!$resultDelete) {
@@ -22,5 +22,5 @@ if (!empty($_GET['id'])) {
         }
     }
 }
-header('Location: ../../admin/frontend/contato/contato.php');
+header('Location: ../../frontend/contato/contato.php');
 
