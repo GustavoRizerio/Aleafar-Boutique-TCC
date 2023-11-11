@@ -16,6 +16,7 @@ PHP - https://www.php.net/manual/en/install.php
 MySQL - https://www.mysql.com/
 
 Node.js - https://nodejs.org/en
+
 Servidor local: Recomendado para visualização no navegador.
 ## Configuração
 
