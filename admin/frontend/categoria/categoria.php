@@ -25,7 +25,7 @@
             <nav class="secao__navegacao">
                 <ul class="navegacao__lista" id="side__menu">
                     <li class="navegacao__lista-item"><a href="../usuarios/usuarios.php"
-                            class="navegacao__lista-link">Usuarios</a>
+                            class="navegacao__lista-link">Funcionarios</a>
                     </li>
                     <li class="navegacao__lista-item"><a href="../subcategoria/subcategoria.php"
                             class="navegacao__lista-link">Subcategoria</a>

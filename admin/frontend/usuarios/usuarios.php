@@ -50,18 +50,15 @@
                     <li class="navegacao__lista-item">
                         <a href="../contato/contato.php" class="navegacao__lista-link">Contato</a>
                     </li>
+                    <li class="navegacao__lista-item">
+                        <a href="../../home.php" class="navegacao__lista-link" style="color: red;">Sair</a>
+                    </li>
                     <i class="fa-solid fa-xmark" id="botao__fechar"></i>
                 </ul>
                 <i class="fa-solid fa-bars" id="menu__botao" onclick="openMenu()"></i>
             </nav>
         </section>
     </header>
-
-    <a href="../../home.php" onclick="sair()" class="icons">
-        sair
-    </a>
-
-
 
     <h1><span class="blue">&lt;</span>Funcionarios<span class="blue">&gt;</span></h1>
 
@@ -135,21 +132,6 @@
     </table>
 
     <script src="usuarios.js"></script>
-    <script>
-        // Função chamada ao clicar no botão "Sair"
-        function sair() {
-            // Limpa os dados salvos no localStorage
-            localStorage.removeItem('savedEmail');
-            localStorage.removeItem('savedSenha');
-            // Redireciona para a página de login
-            window.location.href = '../login.php';
-        }
-        const savedEmail = localStorage.getItem('savedEmail');
-        const savedSenha = localStorage.getItem('savedSenha');
-
-        console.log(savedEmail)
-        console.log(savedSenha)
-    </script>
 </body>
 
 </html>
