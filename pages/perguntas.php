@@ -118,7 +118,7 @@
                     <p class="perguntas__texto">Como as compras são enviadas?</p>
                     <ul>
                         <li>
-                            <p class="respostas__faq">os envios são feitos pelos correios</p>
+                            <p class="respostas__faq">Os envios são feitos pelos correios</p>
                         </li>
                     </ul>
                 </li>
@@ -127,7 +127,7 @@
                     <ul>
                         <li>
                             <p class="respostas__faq">O custo de envio será decidido com base ao total da compra e sua
-                                localização, no whatszapp.</p>
+                                localização, no WhatsApp.</p>
                         </li>
                     </ul>
                 </li>

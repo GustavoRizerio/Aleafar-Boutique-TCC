@@ -30,14 +30,14 @@
             <div class="textos__rodape">
                 <p><i class="fa-solid fa-box"></i>Correios</p>
                 <p><i class="fa-solid fa-truck-fast"></i>Entrega Expressa</p>
-                <p><i class="fa-solid fa-house"></i>Entregas Fisicas</p>
+                <p><i class="fa-solid fa-house"></i>Entregas Físicas</p>
             </div>
         </div>
         <div class="div3">
             <h3>Contato</h3>
             <div class="textos__rodape">
-                <p><i class="fa-solid fa-phone"></i>4002-8922</p>
-                <p><i class="fa-solid fa-phone"></i>4002-8922</p>
+                <p><i class="fa-solid fa-phone"></i>11 94049-8642</p>
+                <p><i class="fa-solid fa-phone"></i>11 98541-1817</p>
                 <p><i class="fa-solid fa-envelope"></i>foreich@suporte.com</p>
             </div>
         </div>
