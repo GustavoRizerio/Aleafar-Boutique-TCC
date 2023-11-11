@@ -251,7 +251,7 @@ function buyAll() {
     message += `Valor Total: R$${totalAmount.toFixed(2)}`;
 
     // Gere o link do WhatsApp com o número específico (substitua '5511977336964' pelo número desejado)
-    generateLink(message, '551197733-6964');
+    generateLink(message, '+551197733-6964');
 
     // Limpa o carrinho após a criação do link
     carrinho.length = 0;

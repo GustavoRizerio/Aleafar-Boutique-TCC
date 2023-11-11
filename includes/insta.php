@@ -26,7 +26,7 @@
     <div class="insta">
         <h3 class="feedback__titulo-instagram">Siga-nos</h3>
         <figure>
-            <a href="https://www.instagram.com/foreich.technologies/" target="_blank" class="feedback__instagram-icon">
+            <a href="https://www.instagram.com/aleafar_boutique/" target="_blank" class="feedback__instagram-icon">
                 <img src="https://i.imgur.com/MPjMsMb.png" alt="" class="feedback__instagram-icon">
             </a>
         </figure>

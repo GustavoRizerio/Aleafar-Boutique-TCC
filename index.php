@@ -122,7 +122,7 @@
 
         <!-- inicio promoções -->
         <section class="promocao__container">
-            <h2 class="promocao__titulo">Historia da Marca</h2>
+            <h2 class="promocao__titulo">História da Marca</h2>
             <!-- texto -->
             <p class="promocao__texto">
                 A Aleafar Boutique é o fruto do sonho e da determinação de uma jovem empreendedora que decidiu
