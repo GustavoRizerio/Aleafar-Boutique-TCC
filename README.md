@@ -12,7 +12,9 @@ Este é o repositório do meu Trabalho de Conclusão de Curso (TCC) em PHP, um p
 Antes de começar, certifique-se de ter o seguinte instalado:
 
 PHP - https://www.php.net/manual/en/install.php
+
 MySQL - https://www.mysql.com/
+
 Node.js - https://nodejs.org/en
 Servidor local: Recomendado para visualização no navegador.
 ## Configuração
