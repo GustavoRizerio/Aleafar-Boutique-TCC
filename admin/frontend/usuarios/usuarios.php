@@ -33,6 +33,9 @@
                         <a href="./usuarios.php" class="navegacao__lista-link linkselect">Funcionarios</a>
                     </li>
                     <li class="navegacao__lista-item">
+                        <a href="../cliente/cliente.php" class="navegacao__lista-link">Cliente</a>
+                    </li>
+                    <li class="navegacao__lista-item">
                         <a href="../subcategoria/subcategoria.php" class="navegacao__lista-link">Subcategoria</a>
                     </li>
                     <li class="navegacao__lista-item">
