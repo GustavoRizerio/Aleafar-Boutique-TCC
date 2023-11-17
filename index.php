@@ -80,8 +80,8 @@
     <!-- Inicio informações -->
     <section class="secao__info">
         <figure class="secao__info-figure">
-            <source srcset="https://i.imgur.com/FCgH5rJ.png" type="image/webp">
-            <img src="./assets/img/desktopCapa.png" alt="Roupas no cabide" class="info__figure-img" />
+            <source srcset="https://i.imgur.com/bLUJAfr.jpeg" type="image/webp">
+            <img src="https://i.imgur.com/cF5Cpzl.png" alt="Roupas no cabide" class="info__figure-img" />
         </figure>
         <div class="secao__container">
             <div class="secao__container-texto">
