@@ -24,6 +24,9 @@
                             Não tem uma conta ?
                             <a href="formulario.php">Se cadastre.</a>
                         </p>
+                        <p class="conta__botao">
+                            <a href="esqueciasenha.php">Esqueceu a senha?</a>
+                        </p>
                     </form>
                 </div>
             </div>
