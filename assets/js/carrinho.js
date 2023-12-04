@@ -53,7 +53,7 @@ function updateCartIcon() {
     localStorage.setItem('carrinho', JSON.stringify(carrinho));
 }
 
-window.updateCartItemCount = function() {
+window.updateCartItemCount = function () {
     const cartItemCount = document.getElementById('cartItemCount');
     cartItemCount.textContent = carrinho.reduce((total, product) => total + product.quantity, 0);
 
@@ -111,14 +111,14 @@ function showCartPopup() {
         buyAllBtn.classList.add('buy-all-btn'); // Adiciona a classe buy-all-btn
         buyAllBtn.addEventListener('click', buyAll);
         cartPopup.appendChild(buyAllBtn);
-        
+
         const totalContainer = document.createElement('div');
         totalContainer.classList.add('total-container');
         totalContainer.textContent = `Total da Compra: R$${totalAmount.toFixed(2)}`;
         cartPopup.appendChild(totalContainer);
     }
 
-    
+
 
     // Adiciona o botão de fechar
     const closeBtn = document.createElement('button');
@@ -160,9 +160,9 @@ function addToCart(product) {
         } else {
             carrinho.push({ ...product, quantity: 1, total: parseFloat(product.productPrice) });
         }
-    
+
         updateCartItemCount();
-    
+
         if (document.getElementById('cartPopup').style.display === 'block') {
             showCartPopup();
         }
@@ -184,7 +184,7 @@ function removeProductFromCart(product) {
 
     if (index !== -1) {
         const removedProduct = carrinho[index];
-        
+
         if (removedProduct.quantity > 1) {
             // Se a quantidade for maior que 1, apenas reduz a quantidade
             removedProduct.quantity--;
@@ -214,16 +214,16 @@ function buyAll() {
         return;
     }
     // Variável para armazenar o valor total da compra
-    
+
     // Variável para armazenar a quantidade total de itens
     let totalQuantity = 0;
-    
+
     // Construa a mensagem inicial
     let message = "Olá Aleafar Boutique!\n";
     message += "Estou interessado(a) nos seguintes itens:\n";
-    
+
     let totalAmount = 0;
-    
+
     // Concatene os nomes, preços e quantidades dos produtos no carrinho à mensagem
     carrinho.forEach(product => {
         // Adicione o preço ao valor total da compra
@@ -250,7 +250,7 @@ function buyAll() {
     message += `Quantidade Total: ${totalQuantity}\n`;
     message += `Valor Total: R$${totalAmount.toFixed(2)}`;
 
-    // Gere o link do WhatsApp com o número específico (substitua '+5511977336964' pelo número desejado)
+    // Gere o link do WhatsApp com o número específico 
     generateLink(message, '+551197733-6964');
 
     // Limpa o carrinho após a criação do link
